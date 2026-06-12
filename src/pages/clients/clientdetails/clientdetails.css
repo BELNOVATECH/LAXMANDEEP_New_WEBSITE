@@ -2,6 +2,7 @@
   min-height:100vh;
   background:#040b16;
   padding:120px 7%;
+  position:relative;
 }
 
 .back-btn{
@@ -196,4 +197,23 @@
     width:140px;
     height:140px;
   }
+}
+
+.back-btn {
+  position: absolute !important;
+  top: 20px !important;
+  left: 20px !important;
+  z-index: 999999 !important;
+
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(255,255,255,0.15);
+
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+
+  backdrop-filter: blur(20px);
 }

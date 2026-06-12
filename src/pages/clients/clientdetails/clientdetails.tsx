@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import FortressDetails from "../fortress/FortressDetails";
 import { clients } from "../../../data/client";
 import WhySection from "../../../components/client/WhySection";
@@ -12,7 +12,7 @@ import GlobalReachSection from "../../../components/client/GlobalReachSection";
 import MarketsSection from "../../../components/client/MarketsSection";
 export default function ClientDetails() {
 
-
+const navigate = useNavigate();
   const { id } = useParams();
 
   const client =
@@ -24,8 +24,17 @@ export default function ClientDetails() {
 if (id === "fortress") {
   return <FortressDetails />;
 }
+
 return (
+  
+
   <section className="client-page">
+    <button
+      className="back-btn"
+      onClick={() => navigate(-1)}
+    >
+      ← Back
+    </button>
 
     <div className="hero">
 
@@ -118,5 +127,6 @@ return (
 
 
   </section>
+   
 );
 }
