@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { clients } from "../../../data/client";
 import FortressHero from "../../../components/client/FortressHero";
 import FortressChallengeSection from "../../../components/client/FortressChallengeSection";
@@ -13,9 +14,19 @@ import TechnologyValidationSection from "../../../components/client/TechnologyVa
 import ExitVision from "../../../components/client/ExitVision";
 export default function FortressDetails() {
   const client = clients.fortress;
-
+  const navigate = useNavigate();
   return (
+       
+    
     <section className="client-page">
+      <button
+      className="back-btn"
+      onClick={() => navigate(-1)}
+    >
+      ← Back
+    </button>
+
+        
 <FortressHero
   title={client.title}
   category={client.category}
@@ -64,5 +75,6 @@ export default function FortressDetails() {
       <ExitVision />
 
     </section>
+      
   );
 }

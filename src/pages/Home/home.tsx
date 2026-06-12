@@ -1,7 +1,7 @@
 import "./home.css";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-
+import { useRef } from "react";
 import {
   FaBrain,
   FaGlobe,
@@ -11,6 +11,14 @@ import {
 } from "react-icons/fa6";
 
 export default function Home() {
+  const ecosystemRef = useRef<HTMLElement | null>(null);
+
+  const scrollToEcosystem = () => {
+    ecosystemRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <>
       <Navbar />
@@ -48,9 +56,12 @@ export default function Home() {
 
             <div className="hero-buttons">
 
-              <button className="primary-btn">
-                Explore Ecosystem
-              </button>
+<button
+  className="primary-btn"
+  onClick={scrollToEcosystem}
+>
+  Explore Ecosystem
+</button>
 
               <button className="secondary-btn">
                 Watch Vision
@@ -155,7 +166,10 @@ export default function Home() {
 
         {/* ECOSYSTEM */}
 
-        <section className="ecosystem-section">
+       <section
+  className="ecosystem-section"
+  ref={ecosystemRef}
+>
 
           <div className="section-title">
 
