@@ -3,7 +3,7 @@ interface Props {
 }
 
 export default function FortressOSSSection({
-  steps,
+  // steps,
 }: Props) {
   return (
     <>

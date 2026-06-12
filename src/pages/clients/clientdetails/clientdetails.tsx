@@ -7,7 +7,7 @@ import PartnersSection from "../../../components/client/PartnersSection";
 import SolutionsSection from "../../../components/client/SolutionsSection";
 import PatentSection from "../../../components/client/PatentSection";
 import EcosystemSection from "../../../components/client/EcosystemSection";
-import CompetitorComparison from "../../../components/client/CompetitorComparison";
+// import CompetitorComparison from "../../../components/client/CompetitorComparison";
 import GlobalReachSection from "../../../components/client/GlobalReachSection";
 import MarketsSection from "../../../components/client/MarketsSection";
 export default function ClientDetails() {
