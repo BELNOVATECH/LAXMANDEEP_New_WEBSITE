@@ -1,0 +1,322 @@
+.lxd-footer{
+  width:100%;
+  background:linear-gradient(
+    180deg,
+    #03111f 0%,
+    #020b18 100%
+  );
+
+  border-top:1px solid rgba(255,255,255,.08);
+
+  position:relative;
+  overflow:hidden;
+}
+
+.lxd-footer::before{
+  content:"";
+
+  position:absolute;
+
+  width:600px;
+  height:600px;
+
+  top:-250px;
+  right:-200px;
+
+  border-radius:50%;
+
+  background:rgba(212,175,55,.08);
+
+  filter:blur(180px);
+
+  pointer-events:none;
+}
+
+/* CONTAINER */
+
+.lxd-footer-container{
+  max-width:1400px;
+
+  margin:0 auto;
+
+  padding:90px 40px 50px;
+
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.2fr;
+
+  gap:60px;
+
+  position:relative;
+  z-index:2;
+}
+
+/* BRAND */
+
+.lxd-footer-brand h2{
+  color:#fff;
+
+  font-size:3rem;
+
+  letter-spacing:2px;
+
+  margin-bottom:20px;
+}
+
+.lxd-footer-brand p{
+  color:#9aa7ba;
+
+  line-height:2;
+
+  font-size:16px;
+
+  max-width:450px;
+}
+
+.lxd-footer-contact{
+  margin-top:35px;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:18px;
+}
+
+.lxd-footer-contact a{
+  display:flex;
+  align-items:center;
+
+  gap:12px;
+
+  color:#d4af37;
+
+  text-decoration:none;
+
+  transition:.3s;
+}
+
+.lxd-footer-contact a:hover{
+  color:#fff;
+
+  transform:translateX(6px);
+}
+
+/* LINKS */
+
+.lxd-footer-links{
+  display:flex;
+  flex-direction:column;
+}
+
+.lxd-footer-links h4{
+  color:#fff;
+
+  margin-bottom:25px;
+
+  font-size:1.1rem;
+
+  position:relative;
+}
+
+.lxd-footer-links h4::after{
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  bottom:-8px;
+
+  width:45px;
+  height:2px;
+
+  background:#d4af37;
+}
+
+.lxd-footer-links a,
+.lxd-footer-links p{
+  color:#9aa7ba;
+
+  text-decoration:none;
+
+  margin-bottom:15px;
+
+  line-height:1.8;
+
+  transition:.3s;
+}
+
+.lxd-footer-links a:hover{
+  color:#d4af37;
+
+  transform:translateX(6px);
+}
+
+/* SOCIALS */
+
+.lxd-footer-social{
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  gap:18px;
+
+  padding:10px 40px 40px;
+
+  position:relative;
+  z-index:2;
+}
+
+.lxd-footer-social a{
+  width:60px;
+  height:60px;
+
+  border-radius:50%;
+
+  background:rgba(255,255,255,.05);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  color:#fff;
+
+  font-size:22px;
+
+  transition:.4s;
+}
+
+.lxd-footer-social a:hover{
+  background:#d4af37;
+
+  color:#000;
+
+  transform:translateY(-8px);
+
+  box-shadow:
+    0 15px 40px rgba(212,175,55,.25);
+}
+
+/* BOTTOM */
+
+.lxd-footer-bottom{
+  max-width:1400px;
+
+  margin:0 auto;
+
+  padding:30px 40px;
+
+  border-top:1px solid rgba(255,255,255,.08);
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  flex-wrap:wrap;
+
+  gap:20px;
+
+  position:relative;
+  z-index:2;
+}
+
+.lxd-footer-bottom p{
+  color:#8b98aa;
+
+  margin:0;
+
+  white-space:nowrap;
+}
+
+.lxd-footer-policies{
+  display:flex;
+
+  gap:30px;
+
+  flex-wrap:wrap;
+}
+
+.lxd-footer-policies a{
+  color:#8b98aa;
+
+  text-decoration:none;
+
+  transition:.3s;
+}
+
+.lxd-footer-policies a:hover{
+  color:#d4af37;
+}
+
+/* TABLET */
+
+@media (max-width:1024px){
+
+  .lxd-footer-container{
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+  }
+
+  .lxd-footer-brand{
+    grid-column:span 2;
+  }
+
+  .lxd-footer-bottom{
+    flex-direction:column;
+    text-align:center;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+  .lxd-footer-container{
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+    padding:70px 25px 40px;
+  }
+
+  .lxd-footer-brand{
+    grid-column:auto;
+  }
+
+  .lxd-footer-brand p{
+    max-width:100%;
+  }
+
+  .lxd-footer-contact{
+    align-items:center;
+  }
+
+  .lxd-footer-links h4::after{
+    left:50%;
+    transform:translateX(-50%);
+  }
+
+  .lxd-footer-social{
+    flex-wrap:wrap;
+
+    padding:20px;
+  }
+
+  .lxd-footer-bottom{
+    text-align:center;
+
+    flex-direction:column;
+
+    padding:25px;
+  }
+
+  .lxd-footer-policies{
+    justify-content:center;
+  }
+
+  .lxd-footer-brand h2{
+    font-size:2.3rem;
+  }
+}
