@@ -3,7 +3,7 @@ interface Props {
 }
 
 export default function EcosystemSection({
-  partners,
+
 }: Props) {
 
   return (
