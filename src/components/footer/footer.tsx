@@ -94,7 +94,6 @@ const Footer = () => {
           </Link>
 
           <Link to="/services">
-            Fortress Cyber
           </Link>
 
         </div>
