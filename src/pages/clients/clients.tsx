@@ -87,7 +87,7 @@ export default function Clients() {
 
             <span>Identity Technology</span>
 
-            <h2>WiBioCard Italy</h2>
+            <h2>WiBioCard</h2>
 
             <p>
               Enterprise authentication and identity
