@@ -1031,11 +1031,12 @@
 
 }
 
-.back-btn {
-  position: relatives;
-  top: 100px;
-  left: 100px;
-  z-index: 9999;
+.back-btn{
+  position: absolute;
+  top: 20px;
+  left:50px;
+
+  z-index: 10;
 
   padding: 12px 24px;
   border-radius: 999px;
@@ -1044,16 +1045,119 @@
   border: 1px solid rgba(255,255,255,0.12);
 
   color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-
   cursor: pointer;
-  backdrop-filter: blur(20px);
-
-  transition: all 0.3s ease;
 }
 
 .back-btn:hover {
   transform: translateX(-4px);
   background: rgba(255,255,255,0.15);
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+
+  .challenge-grid,
+  .economics-grid,
+  .projection-grid,
+  .team-grid,
+  .validation-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .business-model-grid,
+  .market-opportunity-grid,
+  .execution-grid,
+  .gtm-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-content h1 {
+    font-size: 3.2rem;
+  }
+
+  .patent-header h3 {
+    font-size: 2.2rem;
+  }
+
+  .client-page {
+    padding: 100px 5%;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+
+  .client-page {
+    padding: 90px 20px;
+  }
+
+  .card,
+  .solution-card,
+  .patent-card,
+  .ecosystem-card,
+  .os-card,
+  .team-card,
+  .validation-card,
+  .business-model-card,
+  .gtm-card,
+  .market-opportunity-card,
+  .execution-card,
+  .challenge-card,
+  .economics-card,
+  .projection-card {
+    padding: 20px;
+  }
+
+  .challenge-grid,
+  .economics-grid,
+  .projection-grid,
+  .team-grid,
+  .validation-grid,
+  .business-model-grid,
+  .market-opportunity-grid,
+  .execution-grid,
+  .gtm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .patent-header h3 {
+    font-size: 1.8rem;
+  }
+
+  .comparison-table {
+    min-width: 700px;
+  }
+
+@media (max-width:768px){
+
+  .back-btn{
+    top: -20px;
+    left: 0;
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+}
 }

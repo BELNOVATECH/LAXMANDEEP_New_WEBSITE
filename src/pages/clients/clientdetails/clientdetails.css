@@ -52,7 +52,7 @@
 
 .hero-content h1{
   color:white;
-  font-size:5rem;
+   font-size:clamp(1.8rem,6vw,5rem);
   margin-top:10px;
   line-height:1;
 }
@@ -121,7 +121,7 @@
 
 .section-title{
   color:white;
-  font-size:2rem;
+   font-size:clamp(1.4rem,4vw,2rem);
   margin-bottom:25px;
 }
 
@@ -216,4 +216,203 @@
   cursor: pointer;
 
   backdrop-filter: blur(20px);
+}
+
+
+/* ========================================= */
+/* RESPONSIVE IMPROVEMENTS */
+/* ========================================= */
+
+/* Tablets */
+@media screen and (max-width:1024px){
+
+  .client-page{
+    padding:110px 5% 70px;
+  }
+
+  .hero{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:35px;
+  }
+
+  .hero-content h1{
+    font-size:3.2rem;
+  }
+
+  .hero-content p{
+    max-width:700px;
+    margin:auto;
+    margin-top:20px;
+  }
+
+  .stats-row{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .services-grid,
+  .benefits-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width:768px){
+
+  html,
+  body{
+    overflow-x:hidden;
+  }
+
+  .client-page{
+    padding:100px 20px 50px;
+  }
+
+ .back-btn{
+  position:fixed !important;
+  top:20px !important;
+  left:20px !important;
+}
+
+  .hero{
+    text-align:center;
+    gap:25px;
+    margin-bottom:40px;
+  }
+
+  .logo-card{
+    width:130px;
+    height:130px;
+  }
+
+  .hero-content span{
+    font-size:12px;
+    letter-spacing:2px;
+  }
+
+  .hero-content h1{
+    font-size:2.3rem;
+    line-height:1.1;
+  }
+
+  .hero-content p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+  .stats-row{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .stat-card{
+    padding:20px;
+    font-size:16px;
+  }
+
+  .bento-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .card{
+    padding:24px;
+    border-radius:20px;
+  }
+
+  .card h2{
+    font-size:1.4rem;
+  }
+
+  .card p{
+    font-size:14px;
+  }
+
+  .section-title{
+    font-size:1.8rem;
+  }
+
+  .services-grid,
+  .benefits-grid{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .service-card,
+  .benefit-card{
+    padding:20px;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width:480px){
+
+  .client-page{
+    padding:90px 16px 40px;
+  }
+
+  .back-btn{
+    padding:8px 14px;
+    font-size:13px;
+  }
+
+  .logo-card{
+    width:110px;
+    height:110px;
+    border-radius:20px;
+  }
+
+  .hero-content h1{
+    font-size:1.9rem;
+  }
+
+  .hero-content p{
+    font-size:14px;
+  }
+
+  .stat-card{
+    padding:18px;
+    font-size:15px;
+  }
+
+  .card{
+    padding:18px;
+  }
+
+  .card h2{
+    font-size:1.2rem;
+  }
+
+  .section-title{
+    font-size:1.5rem;
+  }
+
+  .service-card,
+  .benefit-card{
+    padding:18px;
+    font-size:14px;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width:360px){
+
+  .hero-content h1{
+    font-size:1.6rem;
+  }
+
+  .section-title{
+    font-size:1.3rem;
+  }
+
+  .logo-card{
+    width:90px;
+    height:90px;
+  }
+
+  .back-btn{
+    font-size:12px;
+    padding:7px 12px;
+  }
 }

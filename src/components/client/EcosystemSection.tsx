@@ -1,10 +1,4 @@
-interface Props {
-  partners: string[];
-}
-
-export default function EcosystemSection({
-
-}: Props) {
+export default function EcosystemSection() {
 
   return (
     <>

@@ -110,9 +110,7 @@ return (
     {/* Patents */}
 
 
-<EcosystemSection
-  partners={client.partners}
-/>
+<EcosystemSection />
 
 <PatentSection
   patents={client.patents}

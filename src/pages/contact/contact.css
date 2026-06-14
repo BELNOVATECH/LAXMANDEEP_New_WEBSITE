@@ -207,3 +207,253 @@
     font-size:2.2rem;
   }
 }
+
+/* ========================================= */
+/* RESPONSIVE IMPROVEMENTS */
+/* ========================================= */
+
+/* Tablets */
+@media screen and (max-width: 1024px){
+
+  .contact-page{
+    padding:120px 5% 80px;
+    gap:40px;
+  }
+
+  .contact-left h1{
+    font-size:3rem;
+  }
+
+  .glass-form{
+    padding:30px;
+  }
+
+  .ecosystem-section{
+    padding:80px 5%;
+  }
+
+  .ecosystem-section h2{
+    font-size:2.5rem;
+  }
+
+  .office-section{
+    padding:80px 5%;
+  }
+
+  .office-content{
+    gap:0;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+
+  html,
+  body{
+    overflow-x:hidden;
+  }
+
+  .contact-page{
+    grid-template-columns:1fr;
+    padding:100px 20px 60px;
+    gap:35px;
+  }
+
+  .contact-left{
+    text-align:center;
+  }
+
+  .contact-left span{
+    font-size:12px;
+    letter-spacing:2px;
+  }
+
+  .contact-left h1{
+    font-size:2.2rem;
+    line-height:1.2;
+  }
+
+  .contact-left p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+  .contact-cards{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .info-card{
+    padding:20px;
+  }
+
+  .glass-form{
+    padding:25px;
+    border-radius:20px;
+  }
+
+  .glass-form h2{
+    font-size:1.5rem;
+  }
+
+  .glass-form input,
+  .glass-form textarea{
+    padding:14px;
+    font-size:14px;
+  }
+
+  .glass-form button{
+    padding:14px;
+  }
+
+  .ecosystem-section{
+    padding:70px 20px;
+  }
+
+  .ecosystem-section h2{
+    font-size:2rem;
+  }
+
+  .ecosystem-grid{
+    margin-top:40px;
+    gap:20px;
+  }
+
+  .eco-card{
+    padding:24px;
+  }
+
+  .eco-card img{
+    width:90px;
+    height:90px;
+  }
+
+  .eco-card h3{
+    font-size:1.2rem;
+  }
+
+  .eco-card p{
+    font-size:14px;
+  }
+
+  .office-section{
+    padding:70px 20px;
+  }
+
+  .office-content{
+    grid-template-columns:1fr;
+    border-radius:20px;
+  }
+
+  .office-left{
+    padding:25px;
+    text-align:center;
+  }
+
+  .office-left h2{
+    font-size:2rem;
+  }
+
+  .office-left p{
+    font-size:14px;
+    line-height:1.8;
+  }
+
+  .office-right img{
+    height:300px;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px){
+
+  .contact-page{
+    padding:90px 16px 50px;
+  }
+
+  .contact-left h1{
+    font-size:1.8rem;
+  }
+
+  .contact-left p{
+    font-size:14px;
+  }
+
+  .info-card{
+    padding:18px;
+  }
+
+  .info-card h3{
+    font-size:1rem;
+  }
+
+  .glass-form{
+    padding:20px;
+  }
+
+  .glass-form h2{
+    font-size:1.3rem;
+  }
+
+  .ecosystem-section h2{
+    font-size:1.7rem;
+  }
+
+  .eco-card{
+    padding:20px;
+  }
+
+  .eco-card img{
+    width:75px;
+    height:75px;
+  }
+
+  .office-left{
+    padding:20px;
+  }
+
+  .office-left h2{
+    font-size:1.7rem;
+  }
+
+  .office-right img{
+    height:250px;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 360px){
+
+  .contact-left h1{
+    font-size:1.5rem;
+  }
+
+  .ecosystem-section h2{
+    font-size:1.5rem;
+  }
+
+  .office-left h2{
+    font-size:1.5rem;
+  }
+
+  .glass-form{
+    padding:16px;
+  }
+
+  .office-right img{
+    height:220px;
+  }
+}
+html,
+body{
+  overflow-x:hidden;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
