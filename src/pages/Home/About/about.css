@@ -59,7 +59,7 @@
 
 .about-header h2{
   color:#fff;
-  font-size:4rem;
+  font-size:3.5rem;
   margin-top:20px;
   line-height:1.2;
 }
@@ -193,7 +193,7 @@
 
 .stat-card h1{
   color:#d4af37;
-  font-size:3rem;
+   font-size:clamp(2rem,4vw,3rem);
   margin-bottom:10px;
 }
 
@@ -264,5 +264,231 @@
 
   .stat-card h1{
     font-size:2.4rem;
+  }
+}
+
+/* ========================================= */
+/* RESPONSIVE IMPROVEMENTS */
+/* ========================================= */
+
+/* Large Tablets */
+@media screen and (max-width: 1024px){
+
+  .about-section{
+    padding-left:6%;
+    padding-right:6%;
+  }
+
+  .about-content{
+    gap:30px;
+  }
+
+  .future-section{
+    gap:40px;
+  }
+
+  .future-left h2{
+    font-size:2.8rem;
+  }
+
+  .future-right{
+    gap:20px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px){
+
+  html,
+  body{
+    overflow-x:hidden;
+  }
+
+  .about-section{
+    padding-top:110px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px;
+  }
+
+  .bg-glow{
+    filter:blur(80px);
+  }
+
+  .glow1{
+    width:250px;
+    height:250px;
+  }
+
+  .glow2{
+    width:220px;
+    height:220px;
+  }
+
+  .about-header{
+    max-width:100%;
+  }
+
+  .about-header span{
+    font-size:12px;
+    letter-spacing:2px;
+  }
+
+  .about-header h2{
+    font-size:2.2rem;
+    line-height:1.2;
+  }
+
+  .about-header p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+  .about-content{
+    margin-top:50px;
+    gap:25px;
+  }
+
+  .vision-card img{
+    height:250px;
+  }
+
+  .card-content{
+    padding:24px;
+  }
+
+  .card-content h3{
+    font-size:22px;
+  }
+
+  .future-section{
+    margin-top:50px;
+    gap:35px;
+  }
+
+  .future-left{
+    text-align:center;
+  }
+
+  .future-left h2{
+    font-size:2rem;
+  }
+
+  .future-left p{
+    font-size:15px;
+  }
+
+  .future-left button{
+    width:100%;
+    max-width:280px;
+  }
+
+  .future-right{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+
+  .stat-card{
+    padding:28px;
+  }
+
+  .stat-card h1{
+    font-size:2.2rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+  .about-section{
+    padding-top:90px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:25px;
+  }
+
+  .about-header h2{
+    font-size:1.8rem;
+  }
+
+  .about-header p{
+    font-size:14px;
+  }
+
+  .about-content{
+    margin-top:40px;
+  }
+
+  .glass-card{
+    border-radius:20px;
+  }
+
+  .vision-card img{
+    height:200px;
+  }
+
+  .card-content{
+    padding:20px;
+  }
+
+  .card-content h3{
+    font-size:20px;
+  }
+
+  .card-content p{
+    font-size:14px;
+  }
+
+  .future-section{
+    margin-top:40px;
+  }
+
+  .future-left h2{
+    font-size:1.8rem;
+  }
+
+  .future-left p{
+    font-size:14px;
+  }
+
+  .future-left button{
+    width:100%;
+    padding:14px 20px;
+  }
+
+  .stat-card{
+    padding:24px;
+  }
+
+  .stat-card h1{
+    font-size:2rem;
+  }
+
+  .stat-card p{
+    font-size:14px;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 360px){
+
+  .about-header h2{
+    font-size:1.5rem;
+  }
+
+  .future-left h2{
+    font-size:1.5rem;
+  }
+
+  .card-content h3{
+    font-size:18px;
+  }
+
+  .stat-card h1{
+    font-size:1.8rem;
+  }
+
+  .vision-card img{
+    height:180px;
   }
 }

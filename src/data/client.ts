@@ -397,14 +397,32 @@ globalReach: [],
       "Critical Infrastructure"
     ],
 
-    partners: [
-      "Microsoft",
-      "IBM",
-      "Splunk",
-      "CrowdStrike",
-      "Fortinet",
-      "Palo Alto Networks"
-    ],
+partners: [
+  {
+    name: "Microsoft",
+    url: "https://www.microsoft.com"
+  },
+  {
+    name: "IBM",
+    url: "https://www.ibm.com"
+  },
+  {
+    name: "Splunk",
+    url: "https://www.splunk.com"
+  },
+  {
+    name: "CrowdStrike",
+    url: "https://www.crowdstrike.com"
+  },
+  {
+    name: "Fortinet",
+    url: "https://www.fortinet.com"
+  },
+  {
+    name: "Palo Alto Networks",
+    url: "https://www.paloaltonetworks.com"
+  }
+],
 
     patents: [
       "Security Automation Framework",

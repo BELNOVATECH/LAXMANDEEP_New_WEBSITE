@@ -1,5 +1,10 @@
+interface Partner {
+  name: string;
+  url?: string;
+}
+
 interface Props {
-  partners: string[];
+  partners: (string | Partner)[];
 }
 
 export default function PartnersSection({
@@ -12,14 +17,31 @@ export default function PartnersSection({
       </h2>
 
       <div className="partner-grid">
-        {partners.map((item, index) => (
-          <div
-            key={index}
-            className="partner-card"
-          >
-            {item}
-          </div>
-        ))}
+        {partners.map((partner, index) => {
+          const item =
+            typeof partner === "string"
+              ? { name: partner }
+              : partner;
+
+          return item.url ? (
+            <a
+              key={index}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="partner-card"
+            >
+              {item.name}
+            </a>
+          ) : (
+            <div
+              key={index}
+              className="partner-card"
+            >
+              {item.name}
+            </div>
+          );
+        })}
       </div>
     </>
   );
