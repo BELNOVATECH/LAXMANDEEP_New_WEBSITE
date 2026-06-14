@@ -392,7 +392,7 @@ globalReach: [],
       "Government",
       "Banking",
       "Healthcare",
-      "Telecommunications",
+      "Telecom",
       "Enterprise",
       "Critical Infrastructure"
     ],
