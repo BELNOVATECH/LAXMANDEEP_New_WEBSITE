@@ -2,6 +2,7 @@
   min-height:100vh;
   background:#040b16;
   padding:120px 7%;
+  position:relative;
 }
 
 .hero{
@@ -1032,11 +1033,10 @@
 }
 
 .back-btn{
-  position: absolute;
+  position: fixed;
   top: 20px;
-  left:50px;
-
-  z-index: 10;
+  left: 20px;
+  z-index: 9999;
 
   padding: 12px 24px;
   border-radius: 999px;
@@ -1153,11 +1153,32 @@
 @media (max-width:768px){
 
   .back-btn{
-    top: -20px;
-    left: 0;
+    top: 15px;
+    left: 15px;
     padding: 10px 18px;
     font-size: 14px;
   }
 
 }
+}
+.market-grid{
+  width: 100%;
+}
+
+.market-card{
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+@media (max-width:768px){
+
+  .market-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .market-card{
+    padding: 25px 15px;
+  }
+
 }
