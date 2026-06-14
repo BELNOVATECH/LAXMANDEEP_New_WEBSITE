@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781432521949" clover="3.2.0">
+  <project timestamp="1781432521949" name="All files">
+    <metrics statements="67" coveredstatements="67" conditionals="10" coveredconditionals="10" methods="53" coveredmethods="53" elements="130" coveredelements="130" complexity="0" loc="67" ncloc="67" packages="7" files="30" classes="30"/>
+    <package name="components.client">
+      <metrics statements="37" coveredstatements="37" conditionals="2" coveredconditionals="2" methods="36" coveredmethods="36"/>
+      <file name="EconomicsSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\EconomicsSection.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="EcosystemSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\EcosystemSection.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+      <file name="ExecutionSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\ExecutionSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="ExitVision.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\ExitVision.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+      <file name="FinancialProjectionSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\FinancialProjectionSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+      </file>
+      <file name="FortressBusinessModel.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\FortressBusinessModel.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="FortressChallengeSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\FortressChallengeSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+      </file>
+      <file name="FortressHero.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\FortressHero.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="FortressOSSSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\FortressOSSSection.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="GTMSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\GTMSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+      <file name="GlobalReachSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\GlobalReachSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="18" count="53" type="stmt"/>
+      </file>
+      <file name="MarketOpportunitySection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\MarketOpportunitySection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="MarketsSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\MarketsSection.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="29" count="49" type="stmt"/>
+      </file>
+      <file name="PartnersSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\PartnersSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+      </file>
+      <file name="PatentSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\PatentSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="32" count="34" type="stmt"/>
+      </file>
+      <file name="ProductsSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\ProductsSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="16" count="38" type="stmt"/>
+      </file>
+      <file name="SolutionsSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\SolutionsSection.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="25" count="19" type="stmt"/>
+        <line num="45" count="114" type="stmt"/>
+      </file>
+      <file name="TeamSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\TeamSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+      </file>
+      <file name="TechnologyValidationSection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\TechnologyValidationSection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+      </file>
+      <file name="WhySection.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\WhySection.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="18" count="54" type="stmt"/>
+      </file>
+      <file name="clientSections.css" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\client\clientSections.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.footer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="footer.css" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\footer\footer.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="footer.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\footer\footer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.navbar">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <file name="navbar.css" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\navbar\navbar.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="navbar.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\components\navbar\navbar.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+        <line num="6" count="27" type="stmt"/>
+        <line num="8" count="27" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="client.ts" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\data\client.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.clients">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="clients.css" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\pages\clients\clients.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="clients.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\pages\clients\clients.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="151" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.clients.clientdetails">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="clientdetails.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\pages\clients\clientdetails\clientdetails.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="76" count="28" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.clients.fortress">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="FortressDetails.tsx" path="C:\Users\Manikantha.N\Desktop\LAXMANDEEP_New_WEBSITE\src\pages\clients\fortress\FortressDetails.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -283,5 +283,140 @@ globalReach: [],
     "Isaac Beeri"
   ]
 },
+ qmasters: {
+    title: "QMasters Cyber Security Services",
+    logo: "/qmasters.png",
 
+    category: "Cyber Security & Information Security",
+
+    overview:
+      "QMasters is a leading international cybersecurity company specializing in consulting, implementation, SIEM, SOAR, SOC, cloud security, endpoint security, threat intelligence and security automation.",
+
+    problem:
+      "Organizations struggle with fragmented security tools, increasing cyber threats, and complex security operations that require expert integration and automation.",
+
+    solution:
+      "QMasters delivers end-to-end cybersecurity consulting, implementation, integration and managed security services to build scalable enterprise security ecosystems.",
+
+    benefits: [
+      "SIEM & SOAR Integration",
+      "SOC Deployment",
+      "Cloud Security",
+      "Endpoint Protection",
+      "Network Security",
+      "Email Security",
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+
+    products: [
+      "SIEM Solutions",
+      "SOAR Platforms",
+      "SOC Services",
+      "Cloud Security",
+      "Network Security",
+      "Threat Intelligence"
+    ],
+
+    solutions: [
+      {
+        title: "SIEM & SOAR",
+        subtitle: "Security Operations Platform",
+
+        description:
+          "Centralized security monitoring, orchestration and automated incident response.",
+
+        features: [
+          "Real-Time Monitoring",
+          "Threat Detection",
+          "Security Analytics",
+          "Automated Response",
+          "Compliance Reporting",
+          "Incident Management"
+        ]
+      },
+
+      {
+        title: "Cloud Security",
+        subtitle: "Enterprise Cloud Protection",
+
+        description:
+          "Comprehensive cloud workload and infrastructure security solutions.",
+
+        features: [
+          "Cloud Monitoring",
+          "Identity Security",
+          "Workload Protection",
+          "Data Security",
+          "Compliance Management",
+          "Risk Assessment"
+        ]
+      },
+
+      {
+        title: "Security Automation",
+        subtitle: "Automated Cyber Defense",
+
+        description:
+          "Automation frameworks reducing operational overhead and improving response times.",
+
+        features: [
+          "Workflow Automation",
+          "Threat Correlation",
+          "Playbooks",
+          "Alert Prioritization",
+          "Response Automation",
+          "Scalable Operations"
+        ]
+      }
+    ],
+
+    advantages: [
+      "Global Cybersecurity Expertise",
+      "Vendor Neutral Consulting",
+      "Security Automation Specialists",
+      "Enterprise Scale Deployments",
+      "Government Security Experience",
+      "24/7 Security Operations"
+    ],
+
+    globalReach: [
+      "Israel",
+      "United States",
+      "Europe",
+      "Middle East",
+      "Asia Pacific"
+    ],
+
+    markets: [
+      "Government",
+      "Banking",
+      "Healthcare",
+      "Telecommunications",
+      "Enterprise",
+      "Critical Infrastructure"
+    ],
+
+    partners: [
+      "Microsoft",
+      "IBM",
+      "Splunk",
+      "CrowdStrike",
+      "Fortinet",
+      "Palo Alto Networks"
+    ],
+
+    patents: [
+      "Security Automation Framework",
+      "Custom Security Integration Methodologies"
+    ],
+
+    competitors: [
+      "Accenture Security",
+      "IBM Security",
+      "Deloitte Cyber",
+      "PwC Cyber"
+    ]
+  }
 };
+
