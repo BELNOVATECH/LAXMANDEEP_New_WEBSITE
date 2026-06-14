@@ -114,7 +114,49 @@ export default function Clients() {
           </div>
 
         </div>
+<div className="premium-client-card qmasters">
 
+  <div className="client-left">
+
+    <img
+      src="/qmasters.png"
+      alt="QMasters Cyber Security Services"
+    />
+
+  </div>
+
+  <div className="client-right">
+
+    <span>Cyber Security & SIEM Integration</span>
+
+    <h2>QMasters Cyber Security Services</h2>
+
+    <p>
+      International cybersecurity consulting and integration
+      company specializing in SIEM, SOAR, SOC operations,
+      cloud security, endpoint protection, network security,
+      threat intelligence, and security automation.
+    </p>
+
+    <div className="mini-stats">
+
+      <div>Founded 2015</div>
+      <div>Global Reach</div>
+      <div>SIEM / SOAR</div>
+
+    </div>
+
+ <button
+  onClick={() =>
+    navigate("/client/qmasters")
+  }
+>
+  View Partnership
+</button>
+
+  </div>
+
+</div>
         <div className="partnership-section">
 
           <h2>Partnership Highlights</h2>
