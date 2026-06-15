@@ -112,12 +112,17 @@ return (
 
 <EcosystemSection />
 
-<PatentSection
-  patents={client.patents}
-/>
-<WhySection
-  advantages={client.advantages}
-/>
+{id === "wibiocard" && (
+  <>
+    <PatentSection
+      patents={client.patents}
+    />
+
+    <WhySection
+      advantages={client.advantages}
+    />
+  </>
+)}
 
 
     {/* Competitors */}
