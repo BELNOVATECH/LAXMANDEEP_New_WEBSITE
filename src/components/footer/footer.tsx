@@ -9,18 +9,28 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = (path: string) => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+
+    setTimeout(() => {
+      navigate(path);
+    }, 100);
+  };
+
   return (
     <footer className="lxd-footer">
-
       <div className="lxd-footer-container">
-
         {/* BRAND */}
-
         <div className="lxd-footer-brand">
-
           <h2>LAXMANDEEP</h2>
 
           <p>
@@ -30,7 +40,6 @@ const Footer = () => {
           </p>
 
           <div className="lxd-footer-contact">
-
             <a href="mailto:info@laxmandeep.com">
               <FaEnvelope />
               <span>info@laxmandeep.com</span>
@@ -44,82 +53,64 @@ const Footer = () => {
               <FaWhatsapp />
               <span>+91 99999 99999</span>
             </a>
-
           </div>
-
         </div>
 
         {/* QUICK LINKS */}
-
         <div className="lxd-footer-links">
-
           <h4>Quick Links</h4>
 
-          <Link to="/">Home</Link>
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/"); }}>
+            Home
+          </a>
 
-          <Link to="/about">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/about"); }}>
             About Us
-          </Link>
+          </a>
 
-          <Link to="/services">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/services"); }}>
             Services
-          </Link>
+          </a>
 
-          <Link to="/ai-intelligence">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/ai-intelligence"); }}>
             AI Intelligence
-          </Link>
+          </a>
 
-          <Link to="/contact">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/contact"); }}>
             Contact
-          </Link>
-
+          </a>
         </div>
 
         {/* ECOSYSTEM */}
-
         <div className="lxd-footer-links">
-
           <h4>Our Ecosystem</h4>
 
-          <Link to="/services">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/services"); }}>
             LaxmanDeep Financial Services
-          </Link>
+          </a>
 
-          <Link to="/services">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/services"); }}>
             Swiss LaxmanDeep AI FINTECH
-          </Link>
+          </a>
 
-          <Link to="/services">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/services"); }}>
             World Intelligence Agency
-          </Link>
-
-          <Link to="/services">
-          </Link>
-
+          </a>
         </div>
 
         {/* CONTACT INFO */}
-
         <div className="lxd-footer-links">
-
           <h4>Contact Info</h4>
 
           <p>📍 Hyderabad, Telangana, India</p>
-
           <p>📧 info@laxmandeep.com</p>
-
           <p>📞 +91 99999 99999</p>
-
           <p>🌐 Global Intelligence Network</p>
-
         </div>
-
       </div>
 
       {/* SOCIALS */}
-
       <div className="lxd-footer-social">
-
         <a
           href="https://www.linkedin.com/in/lakshumaiah-nanubala-5b7baa23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
@@ -151,31 +142,22 @@ const Footer = () => {
         <a href="#">
           <FaXTwitter />
         </a>
-
       </div>
 
       {/* BOTTOM */}
-
       <div className="lxd-footer-bottom">
-
-        <p>
-          © 2026 LAXMANDEEP. All Rights Reserved.
-        </p>
+        <p>© 2026 LAXMANDEEP. All Rights Reserved.</p>
 
         <div className="lxd-footer-policies">
-
-          <Link to="/privacy-policy">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/privacy-policy"); }}>
             Privacy Policy
-          </Link>
+          </a>
 
-          <Link to="/terms">
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/terms"); }}>
             Terms & Conditions
-          </Link>
-
+          </a>
         </div>
-
       </div>
-
     </footer>
   );
 };

@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
 .lxd-footer{
   width:100%;
   background:linear-gradient(
