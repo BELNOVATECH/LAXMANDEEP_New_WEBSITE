@@ -140,18 +140,18 @@ markets: [
       "DeFi"
     ],
 
-    partners: [
-      "CardLab",
-      "Partitalia",
-      "Betacom",
-      "Nexid",
-      "Futurae",
-      "Vaultavo",
-      "HID Global",
-      "Techboard",
-      "Ambiq",
-      "OctoLab"
-    ],
+partners: [
+  { name: "CardLab", url: "https://cardlab.eu" },
+  { name: "Partitalia", url: "https://www.partitalia.it" },
+  { name: "Betacom", url: "https://www.betacom.it" },
+  { name: "Nexid", url: "https://nexid.com" },
+  { name: "Futurae", url: "https://www.futurae.com" },
+  { name: "Vaultavo", url: "https://vaultavo.com" },
+  { name: "HID Global", url: "https://www.hidglobal.com" },
+  { name: "Techboard", url: "https://techboard.com.au" },
+  { name: "Ambiq", url: "https://ambiq.com" },
+  { name: "OctoLab", url: "https://octolab.com" }
+],
 
     patents: [
       "WO/2007/110142",
