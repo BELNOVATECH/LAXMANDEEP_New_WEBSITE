@@ -7,6 +7,11 @@ export default function About() {
     <Navbar />
     
     <section className="about-section" id="about">
+      <div className="particle p1"></div>
+<div className="particle p2"></div>
+<div className="particle p3"></div>
+<div className="particle p4"></div>
+
 
       <div className="bg-glow glow1"></div>
       <div className="bg-glow glow2"></div>
@@ -29,6 +34,29 @@ export default function About() {
           to create sustainable growth for businesses and investors worldwide.
         </p>
       </div>
+      <div className="about-live-bar">
+
+  <div className="live-item">
+    <h3>19K+</h3>
+    <span>Followers</span>
+  </div>
+
+  <div className="live-item">
+    <h3>16K+</h3>
+    <span>Connections</span>
+  </div>
+
+  <div className="live-item">
+    <h3>24/7</h3>
+    <span>Intelligence</span>
+  </div>
+
+  <div className="live-item">
+    <h3>150+</h3>
+    <span>Countries Reach</span>
+  </div>
+
+</div>
 
       <div className="about-content">
 
@@ -65,7 +93,20 @@ export default function About() {
         </div>
 
       </div>
+<div className="mission-banner">
 
+  <span>GLOBAL FINANCIAL INTELLIGENCE</span>
+
+  <h2>
+    Finance + AI + Intelligence
+  </h2>
+
+  <p>
+    Creating the world's most trusted ecosystem
+    for investment, innovation and intelligence.
+  </p>
+
+</div>
       <div className="future-section">
 
         <div className="future-left">
@@ -88,12 +129,12 @@ export default function About() {
         <div className="future-right">
 
           <div className="stat-card glass-card">
-            <h1>18K+</h1>
+            <h1>19K+</h1>
             <p>Professional Followers</p>
           </div>
 
           <div className="stat-card glass-card">
-            <h1>500+</h1>
+            <h1>16k+</h1>
             <p>Business Connections</p>
           </div>
 

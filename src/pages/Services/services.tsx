@@ -55,21 +55,22 @@ const services = [
     },
   ],
 
-  benefits: [
-    "Personalized Wealth Planning",
-    "Investment Intelligence",
-    "Financial Risk Control",
-    "Long-Term Wealth Creation",
-    "Research-Driven Decisions",
-    "Global Investment Opportunities",
-  ],
-
-  stats: [
-    { value: "18K+", label: "Investors" },
-    { value: "96%", label: "Client Satisfaction" },
-    { value: "24/7", label: "Support" },
-    { value: "500+", label: "Connections" },
-  ],
+benefits: [
+"Open Source Intelligence",
+"Geopolitical Monitoring",
+"Global Risk Assessment",
+"Strategic Decision Support",
+"Cyber Threat Intelligence",
+"International Research Collaboration",
+"Verified Intelligence Frameworks",
+"24/7 Intelligence Monitoring",
+],
+stats: [
+{ value: "500+", label: "Research Publications" },
+{ value: "100+", label: "Countries Monitored" },
+{ value: "24/7", label: "Intelligence Operations" },
+{ value: "99%", label: "Data Verification" },
+],
 },
 
 {
@@ -136,44 +137,44 @@ const services = [
 {
   id: 3,
   title: "World Intelligence Agency",
-  subtitle: "GLOBAL INTELLIGENCE",
+subtitle: "GLOBAL INTELLIGENCE • RESEARCH • ANALYTICS",
   image: "/wia-global.png",
 
   description:
-    "World Intelligence Agency (WIA) is a decentralized global intelligence layer designed to bridge economies, ecosystems, and financial networks through Artificial Intelligence, Blockchain Technology, and Strategic Intelligence. WIA transforms fragmented global data into transparent, verifiable, and actionable intelligence for governments, enterprises, institutions, and investors.",
+"World Intelligence Agency (WIA) is a global intelligence, research, and strategic analytics organization that transforms complex data into actionable intelligence. Leveraging Artificial Intelligence, Open-Source Intelligence (OSINT), Economic Research, Geopolitical Analysis, Blockchain Verification, and Advanced Data Systems, WIA delivers trusted insights that empower governments, enterprises, institutions, investors, and global stakeholders to make informed strategic decisions.",
 
-  offers: [
-    {
-      icon: <FaGlobe />,
-      title: "Global Intelligence Network",
-      desc: "Real-time intelligence gathering across economies and industries.",
-    },
-    {
-      icon: <FaBrain />,
-      title: "Strategic Forecasting",
-      desc: "AI-powered forecasting of economic and geopolitical trends.",
-    },
-    {
-      icon: <FaShieldHalved />,
-      title: "Blockchain Verification",
-      desc: "Transparent and verifiable intelligence infrastructure.",
-    },
-    {
-      icon: <FaChartLine />,
-      title: "Economic Intelligence",
-      desc: "Advanced research into markets, trade, and opportunities.",
-    },
-    {
-      icon: <FaGlobe />,
-      title: "Cross-Border Intelligence",
-      desc: "Connecting regions through decentralized intelligence systems.",
-    },
-    {
-      icon: <FaBrain />,
-      title: "Sovereign Intelligence",
-      desc: "Trusted frameworks supporting strategic decision-making.",
-    },
-  ],
+offers: [
+{
+  icon: <FaGlobe />,
+  title: "Open Source Intelligence (OSINT)",
+  desc: "Collecting and analyzing publicly available information for strategic insights.",
+},
+{
+  icon: <FaBrain />,
+  title: "Geopolitical Intelligence",
+  desc: "Monitoring global political developments, risks, and opportunities.",
+},
+{
+  icon: <FaShieldHalved />,
+  title: "Cyber Threat Intelligence",
+  desc: "Identifying emerging cyber risks and digital security threats.",
+},
+{
+  icon: <FaChartLine />,
+  title: "Global Risk Assessment",
+  desc: "Evaluating economic, political, and operational risks worldwide.",
+},
+{
+  icon: <FaGlobe />,
+  title: "International Research Network",
+  desc: "Connecting researchers, analysts, and institutions globally.",
+},
+{
+  icon: <FaBrain />,
+  title: "Strategic Intelligence Reports",
+  desc: "Delivering actionable reports for decision-makers and investors.",
+},
+],
 
   benefits: [
     "Transparent Data Flows",
@@ -207,6 +208,11 @@ const technologies = [
   "Economic Intelligence",
   "Data Transparency",
   "Automation Systems",
+  "Open Source Intelligence (OSINT)",
+"Big Data Analytics",
+"Geospatial Intelligence",
+"Knowledge Graph Systems",
+"Strategic Analytics",
 ];
 
 const impacts = [
@@ -509,22 +515,22 @@ export default function Services() {
 
     <div className="vision-card">
       <h3>Vision</h3>
-      <p>
-        Building the future of finance, intelligence,
-        and global coordination through AI,
-        Blockchain, FinTech innovation,
-        and trusted digital ecosystems.
-      </p>
+<p>
+To become the world's most trusted intelligence,
+research, and strategic analytics ecosystem,
+connecting knowledge, technology, and decision-making
+across borders.
+</p>
     </div>
 
     <div className="vision-card">
       <h3>Mission</h3>
-      <p>
-        Empowering investors, enterprises,
-        institutions, and governments through
-        intelligent systems that transform data
-        into strategic decisions.
-      </p>
+<p>
+To provide accurate, transparent, and actionable
+intelligence through AI, research, analytics,
+and global collaboration that empowers organizations
+to navigate complexity and create sustainable growth.
+</p>
     </div>
 
   </div>

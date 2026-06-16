@@ -110,7 +110,9 @@ return (
     {/* Patents */}
 
 
-<EcosystemSection />
+{id === "wibiocard" && (
+  <EcosystemSection />
+)}
 
 {id === "wibiocard" && (
   <>
