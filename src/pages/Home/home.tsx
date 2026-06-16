@@ -2,6 +2,7 @@ import "./home.css";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   FaBrain,
   FaGlobe,
@@ -19,6 +20,8 @@ export default function Home() {
       block: "start",
     });
   };
+const navigate = useNavigate();
+
   return (
     <>
       <Navbar />
@@ -389,11 +392,13 @@ export default function Home() {
             limitless opportunities.
           </p>
 
-          <button className="primary-btn">
-            Get Started
-            <FaArrowRight />
-          </button>
-
+<button
+  className="primary-btn"
+  onClick={() => navigate("/contact")}
+>
+  Get Started
+  <FaArrowRight />
+</button>
         </section>
 
       </main>
