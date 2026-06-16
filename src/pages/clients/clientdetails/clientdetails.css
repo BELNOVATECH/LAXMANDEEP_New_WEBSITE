@@ -1,8 +1,48 @@
 .client-page{
   min-height:100vh;
-  background:#040b16;
-  padding:120px 7%;
+
+  background:
+  radial-gradient(
+    circle at top left,
+    rgba(217,70,239,.12),
+    transparent 30%
+  ),
+  radial-gradient(
+    circle at bottom right,
+    rgba(0,212,255,.12),
+    transparent 30%
+  ),
+  #040b16;
+
   position:relative;
+
+  overflow:hidden;
+
+  padding:120px 7%;
+}
+.client-page::before{
+  content:"";
+
+  position:fixed;
+
+  inset:0;
+
+  background-image:
+  linear-gradient(
+    rgba(255,255,255,.02) 1px,
+    transparent 1px
+  ),
+  linear-gradient(
+    90deg,
+    rgba(255,255,255,.02) 1px,
+    transparent 1px
+  );
+
+  background-size:60px 60px;
+
+  pointer-events:none;
+
+  z-index:0;
 }
 
 .back-btn{
@@ -24,19 +64,56 @@
 }
 
 .logo-card{
-  width:180px;
-  height:180px;
-  flex-shrink:0;
+  width:200px;
+  height:200px;
 
-  background:rgba(255,255,255,.05);
-  backdrop-filter:blur(20px);
+  position:relative;
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(217,70,239,.12),
+    rgba(59,130,246,.12)
+  );
+
+  backdrop-filter:blur(40px);
 
   border:1px solid rgba(255,255,255,.08);
-  border-radius:30px;
+
+  border-radius:35px;
 
   display:flex;
   align-items:center;
   justify-content:center;
+
+  box-shadow:
+  0 30px 80px rgba(59,130,246,.15);
+
+  overflow:hidden;
+}
+.logo-card::before{
+  content:"";
+
+  position:absolute;
+
+  width:300px;
+  height:300px;
+
+  border-radius:50%;
+
+  border:1px solid rgba(255,255,255,.08);
+
+  animation:spinRing 15s linear infinite;
+}
+@keyframes spinRing{
+
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
 }
 
 .logo-card img{
@@ -71,23 +148,52 @@
 }
 
 .stat-card{
-  background:linear-gradient(
-    135deg,
-    rgba(212,175,55,.15),
-    rgba(255,255,255,.03)
-  );
+  position:relative;
+
+  overflow:hidden;
+
+  background:
+  rgba(255,255,255,.04);
+
+  backdrop-filter:blur(30px);
 
   border:1px solid rgba(255,255,255,.08);
 
-  padding:25px;
+  border-radius:28px;
 
-  border-radius:20px;
-
-  color:white;
-  font-size:20px;
-  font-weight:700;
+  padding:35px;
 
   text-align:center;
+
+  transition:.5s;
+}
+.stat-card::before{
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(217,70,239,.25),
+    rgba(59,130,246,.25)
+  );
+
+  opacity:0;
+
+  transition:.5s;
+}
+.stat-card:hover::before{
+  opacity:1;
+}
+.stat-card:hover{
+  transform:
+  translateY(-12px)
+  scale(1.03);
+
+  box-shadow:
+  0 20px 60px rgba(59,130,246,.15);
 }
 
 .bento-grid{
@@ -96,7 +202,60 @@
   gap:25px;
   margin-bottom:60px;
 }
+.card,
+.service-card,
+.benefit-card{
+  position:relative;
 
+  overflow:hidden;
+
+  background:
+  rgba(255,255,255,.04);
+
+  backdrop-filter:blur(35px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  border-radius:28px;
+
+  transition:.5s;
+}
+.card::before,
+.service-card::before,
+.benefit-card::before{
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(217,70,239,.15),
+    rgba(59,130,246,.15)
+  );
+
+  opacity:0;
+
+  transition:.5s;
+}
+.card:hover::before,
+.service-card:hover::before,
+.benefit-card:hover::before{
+  opacity:1;
+}
+.card:hover,
+.service-card:hover,
+.benefit-card:hover{
+
+  transform:
+  translateY(-15px)
+  scale(1.02);
+
+  box-shadow:
+  0 25px 80px rgba(59,130,246,.15);
+}
 .card{
   background:rgba(255,255,255,.05);
   border:1px solid rgba(255,255,255,.08);
@@ -159,9 +318,24 @@
     align-items:flex-start;
   }
 
-  .hero-content h1{
-    font-size:3.5rem;
-  }
+.hero-content h1{
+  font-size:clamp(2rem,6vw,5rem);
+
+  line-height:.95;
+
+  font-weight:800;
+
+  background:
+  linear-gradient(
+    135deg,
+    #ffffff,
+    #d4af37,
+    #00d4ff
+  );
+background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
 
   .stats-row{
     grid-template-columns:repeat(2,1fr);
@@ -414,5 +588,27 @@
   .back-btn{
     font-size:12px;
     padding:7px 12px;
+  }
+}
+
+.card,
+.service-card,
+.benefit-card,
+.stat-card{
+  animation:floatingCard 8s ease-in-out infinite;
+}
+
+@keyframes floatingCard{
+
+  0%{
+    transform:translateY(0);
+  }
+
+  50%{
+    transform:translateY(-6px);
+  }
+
+  100%{
+    transform:translateY(0);
   }
 }

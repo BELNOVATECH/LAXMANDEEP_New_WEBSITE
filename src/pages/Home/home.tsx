@@ -28,6 +28,10 @@ export default function Home() {
         {/* HERO */}
 
         <section className="hero-section">
+          <div className="particle p1"></div>
+<div className="particle p2"></div>
+<div className="particle p3"></div>
+<div className="particle p4"></div>
 
           <div className="hero-glow hero-glow-1"></div>
           <div className="hero-glow hero-glow-2"></div>
@@ -39,12 +43,16 @@ export default function Home() {
             </span>
 
             <h1>
-              Building The Future
-              <br />
-              Of Financial
-              <br />
-              Intelligence
-            </h1>
+  Intelligence.
+  <br />
+  Finance.
+  <br />
+  Future.
+</h1>
+<div className="hero-live">
+  <span></span>
+  Global Intelligence Network Active
+</div>
 
             <p>
               LaxmanDeep Financial Services Pvt Ltd is creating
@@ -98,7 +106,7 @@ export default function Home() {
           </div>
 
           <div className="stat-card">
-            <h2>500+</h2>
+            <h2>16k+</h2>
             <p>Strategic Connections</p>
           </div>
 
@@ -184,7 +192,7 @@ export default function Home() {
 
           <div className="ecosystem-flow">
 
-            <div className="eco-card">
+           <div className="eco-card ">
 
               <img
                 src="/laxmandeep-logo.png"

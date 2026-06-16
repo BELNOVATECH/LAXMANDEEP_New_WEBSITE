@@ -248,7 +248,7 @@ businessModel: [
 validation: [
   "$250K ARR",
   "40K+ Protected Assets",
-  "$5M Self Funded",
+  "$10M Self Funded",
   "98% Renewal Rate"
 ],
 gtm: [
