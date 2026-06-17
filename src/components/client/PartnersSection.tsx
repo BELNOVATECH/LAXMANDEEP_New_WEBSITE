@@ -24,15 +24,18 @@ export default function PartnersSection({
               : partner;
 
           return item.url ? (
-            <a
-              key={index}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="partner-card"
-            >
-              {item.name}
-            </a>
+<a
+  key={index}
+  href={item.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="partner-card"
+  onClick={() => {
+    console.log("Clicked:", item.url);
+  }}
+>
+  {item.name}
+</a>
           ) : (
             <div
               key={index}

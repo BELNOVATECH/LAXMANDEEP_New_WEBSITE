@@ -169,7 +169,7 @@ export default function Clients() {
             </div>
 
             <div>
-              <h1>2</h1>
+              <h1>3</h1>
               <p>Strategic Clients</p>
             </div>
 
