@@ -4,9 +4,9 @@ import {
   FaLinkedin,
   FaWhatsapp,
   FaEnvelope,
-  FaInstagram,
-  FaYoutube,
-  FaXTwitter,
+  // FaInstagram,
+  // FaYoutube,
+  // FaXTwitter,
 } from "react-icons/fa6";
 
 import { useNavigate } from "react-router-dom";
@@ -72,8 +72,8 @@ const Footer = () => {
             Services
           </a>
 
-          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/ai-intelligence"); }}>
-            AI Intelligence
+          <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/clients"); }}>
+            Clients
           </a>
 
           <a href="#" onClick={(e) => { e.preventDefault(); handleNavigate("/contact"); }}>
@@ -131,7 +131,7 @@ const Footer = () => {
           <FaEnvelope />
         </a>
 
-        <a href="#">
+        {/* <a href="#">
           <FaInstagram />
         </a>
 
@@ -141,7 +141,7 @@ const Footer = () => {
 
         <a href="#">
           <FaXTwitter />
-        </a>
+        </a> */}
       </div>
 
       {/* BOTTOM */}
