@@ -97,6 +97,7 @@ return (
     {/* Markets */}
 <MarketsSection
   markets={client.markets}
+   clientId={id}
 />
 
 

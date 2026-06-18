@@ -32,7 +32,7 @@ export default function Contact() {
 
             <div className="info-card">
               <h3>Email</h3>
-              <p>contact@laxmandeep.com</p>
+              <a href="mailto:info@laxmandeep.com">info@laxmandeep.com</a>
             </div>
 
 <div className="info-card">
