@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaUserTie } from "react-icons/fa";
+// import { FaUserTie } from "react-icons/fa";
 import {
   FaBrain,
   FaGlobe,
