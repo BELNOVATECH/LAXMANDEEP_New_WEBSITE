@@ -45,14 +45,14 @@ const Footer = () => {
               <span>info@laxmandeep.com</span>
             </a>
 
-            <a
-              href="https://wa.me/919999999999"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaWhatsapp />
-              <span>+91 99999 99999</span>
-            </a>
+<a
+  href="https://wa.me/919640080880"
+  target="_blank"
+  rel="noreferrer"
+>
+  <FaWhatsapp />
+  <span>+91 96400 80880</span>
+</a>
           </div>
         </div>
 
@@ -104,7 +104,7 @@ const Footer = () => {
 
           <p>📍 Hyderabad, Telangana, India</p>
           <p>📧 info@laxmandeep.com</p>
-          <p>📞 +91 99999 99999</p>
+          <p>📞 +91 96400 80880</p>
           <p>🌐 Global Intelligence Network</p>
         </div>
       </div>
@@ -120,7 +120,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://wa.me/919999999999"
+          href="https://wa.me/919640080880"
           target="_blank"
           rel="noreferrer"
         >

@@ -9,7 +9,7 @@ import {
   FaShieldHalved,
   FaBrain,
   FaChartPie,
-  FaArrowRight,
+  // FaArrowRight,
 } from "react-icons/fa6";
 
 const services = [
@@ -70,6 +70,68 @@ stats: [
 { value: "100+", label: "Countries Monitored" },
 { value: "24/7", label: "Intelligence Operations" },
 { value: "99%", label: "Data Verification" },
+],
+vision: "Become the most trusted wealth management company.",
+
+mission: "Empower investors through strategic financial planning.",
+
+technologies: [
+  "Portfolio Analytics",
+  "Investment Research",
+  "Risk Management"
+],
+
+impacts: [
+  {
+    title: "Wealth Creation",
+    desc: "Helping investors achieve long-term growth."
+  }
+],
+
+roadmap: [
+  {
+    year: "2026",
+    title: "Investment Expansion"
+  },
+  {
+    year: "2027",
+    title: "Wealth Management Platform"
+  },
+  {
+    year: "2028",
+    title: "Global Investment Services"
+  },
+  {
+    year: "2029",
+    title: "AI Portfolio Analytics"
+  },
+  {
+    year: "2030",
+    title: "Unified Wealth Ecosystem"
+  }
+],
+
+whyChooseUs: [
+  {
+    title: "Expert Advisors",
+    desc: "Experienced financial professionals."
+  },
+  {
+    title: "Risk Management",
+    desc: "Advanced strategies to protect investments."
+  },
+  {
+    title: "Data-Driven Decisions",
+    desc: "Research-backed investment recommendations."
+  },
+  {
+    title: "Long-Term Growth",
+    desc: "Focused on sustainable wealth creation."
+  },
+  {
+    title: "Client-Centric Approach",
+    desc: "Personalized financial planning services."
+  }
 ],
 },
 
@@ -132,6 +194,78 @@ stats: [
     { value: "24/7", label: "Automation" },
     { value: "150+", label: "Global Reach" },
   ],
+  vision:
+  "To become a global leader in AI-powered financial technology and intelligent investment infrastructure.",
+
+mission:
+  "To build secure, scalable, and intelligent fintech solutions that transform financial decision-making.",
+
+technologies: [
+  "Artificial Intelligence",
+  "Machine Learning",
+  "Predictive Analytics",
+  "Cybersecurity",
+  "Biometric Authentication",
+  "Financial Automation"
+],
+
+impacts: [
+  {
+    title: "AI Innovation",
+    desc: "Transforming financial services through advanced AI systems."
+  },
+  {
+    title: "Automation",
+    desc: "Reducing operational complexity with intelligent automation."
+  }
+],
+
+roadmap: [
+  {
+    year: "2026",
+    title: "AI Financial Platform"
+  },
+  {
+    year: "2027",
+    title: "Predictive Investment Engine"
+  },
+  {
+    year: "2028",
+    title: "Biometric Security Layer"
+  },
+  {
+    year: "2029",
+    title: "Global FinTech Expansion"
+  },
+  {
+    year: "2030",
+    title: "Autonomous Financial Intelligence"
+  }
+],
+
+whyChooseUs: [
+  {
+    title: "AI Expertise",
+    desc: "Advanced artificial intelligence capabilities."
+  },
+  {
+    title: "Secure Infrastructure",
+    desc: "Enterprise-grade financial security."
+  },
+  {
+    title: "Predictive Analytics",
+    desc: "Accurate forecasting and intelligence."
+  },
+  {
+    title: "Automation",
+    desc: "Smart workflow automation systems."
+  },
+  {
+    title: "Global Scalability",
+    desc: "Built for international expansion."
+  }
+],
+  
 },
 
 {
@@ -193,98 +327,78 @@ offers: [
     { value: "24/7", label: "Monitoring" },
     { value: "99%", label: "Data Reliability" },
   ],
-},
-];
-const technologies = [
+  vision:
+  "To become the world's most trusted intelligence and strategic analytics organization.",
+
+mission:
+  "To deliver accurate, transparent, and actionable intelligence for governments, institutions, and enterprises.",
+
+technologies: [
+  "Open Source Intelligence",
   "Artificial Intelligence",
-  "Machine Learning",
-  "Predictive Analytics",
-  "Blockchain Technology",
-  "Cloud Infrastructure",
-  "Cybersecurity",
-  "Biometric Authentication",
-  "Financial Intelligence",
-  "Strategic Intelligence",
-  "Economic Intelligence",
-  "Data Transparency",
-  "Automation Systems",
-  "Open Source Intelligence (OSINT)",
-"Big Data Analytics",
-"Geospatial Intelligence",
-"Knowledge Graph Systems",
-"Strategic Analytics",
-];
+  "Blockchain Verification",
+  "Big Data Analytics",
+  "Geospatial Intelligence",
+  "Strategic Analytics"
+],
 
-const impacts = [
+impacts: [
   {
-    title: "Finance",
-    desc: "Automated global capital flow systems and intelligent investment frameworks.",
+    title: "Global Intelligence",
+    desc: "Providing actionable insights across regions and industries."
   },
   {
-    title: "Diplomacy",
-    desc: "Real-time intelligence supporting high-level decision making.",
-  },
-  {
-    title: "Trust",
-    desc: "Blockchain-backed transparency and verifiable data flows.",
-  },
-  {
-    title: "Research",
-    desc: "Global economic intelligence and forecasting systems.",
-  },
-  {
-    title: "Innovation",
-    desc: "AI-powered ecosystem development and strategic growth.",
-  },
-];
+    title: "Risk Monitoring",
+    desc: "Identifying geopolitical and economic risks."
+  }
+],
 
-const roadmap = [
+roadmap: [
   {
     year: "2026",
-    title: "AI Financial Infrastructure",
+    title: "Global Intelligence Network"
   },
   {
     year: "2027",
-    title: "Blockchain Intelligence Layer",
+    title: "AI Intelligence Platform"
   },
   {
     year: "2028",
-    title: "Cross-Border Investment Systems",
+    title: "Geopolitical Monitoring System"
   },
   {
     year: "2029",
-    title: "Global Strategic Intelligence Platform",
+    title: "Strategic Analytics Hub"
   },
   {
     year: "2030",
-    title: "Unified Finance + AI + Intelligence Ecosystem",
-  },
-];
-const whyChooseUs = [
+    title: "Unified Global Intelligence Ecosystem"
+  }
+],
+
+whyChooseUs: [
   {
-    title: "AI-Driven Intelligence",
-    desc: "Transforming data into strategic decisions.",
-  },
-  {
-    title: "Blockchain Trust",
-    desc: "Transparent and verifiable information systems.",
+    title: "Trusted Intelligence",
+    desc: "Reliable research and strategic insights."
   },
   {
-    title: "Financial Innovation",
-    desc: "Future-ready fintech infrastructure.",
+    title: "Global Coverage",
+    desc: "Monitoring worldwide developments and risks."
   },
   {
-    title: "Global Intelligence",
-    desc: "Cross-border insights and strategic research.",
+    title: "AI Analytics",
+    desc: "Advanced intelligence processing systems."
   },
   {
-    title: "Cybersecurity",
-    desc: "Enterprise-grade protection and resilience.",
+    title: "Real-Time Monitoring",
+    desc: "24/7 intelligence operations."
   },
   {
-    title: "Research Excellence",
-    desc: "Economic forecasting and intelligence.",
-  },
+    title: "Strategic Research",
+    desc: "Deep geopolitical and economic analysis."
+  }
+],
+},
 ];
 export default function Services() {
   const [activeService, setActiveService] = useState(services[0]);
@@ -297,38 +411,6 @@ export default function Services() {
 
         {/* HERO */}
 
-        <section className="services-hero">
-
-          <div className="hero-left">
-
-            <span>AI • FINANCE • INTELLIGENCE</span>
-
-            <h1>
-              One Ecosystem.
-              <br />
-              Three Powerful
-              <br />
-              Organizations.
-            </h1>
-
-            <p>
-              Discover our integrated ecosystem combining
-              Financial Services, Artificial Intelligence,
-              FinTech Innovation and Global Intelligence.
-            </p>
-
-          </div>
-
-          <div className="hero-right">
-
-            <img
-              src="/ai-globe.png"
-              alt="AI Globe"
-            />
-
-          </div>
-
-        </section>
 
         {/* SERVICE NAVIGATION */}
 
@@ -368,58 +450,33 @@ export default function Services() {
           ))}
 
         </section>
+                <section className="services-hero">
 
-        {/* MAIN AI SHOWCASE */}
+          <div className="hero-left">
 
-        <section className="service-showcase">
+<span>{activeService.subtitle}</span>
 
-          <div className="ai-orb"></div>
-          <div className="ai-orb ai-orb-two"></div>
+<h1>{activeService.title}</h1>
 
-          <div className="showcase-left">
-
-            <div className="logo-ring"></div>
-
-            <img
-              src={activeService.image}
-              alt={activeService.title}
-            />
+<p>{activeService.description}</p>
 
           </div>
 
-          <div className="showcase-right">
+          <div className="hero-right">
 
-            <span>
-              {activeService.subtitle}
-            </span>
-
-            <h2>
-              {activeService.title}
-            </h2>
-
-            <p>
-              {activeService.description}
-            </p>
-
-            <div className="benefits-list">
-
-              {activeService.benefits.map(
-                (item) => (
-                  <div
-                    key={item}
-                    className="benefit-item"
-                  >
-                    <FaArrowRight />
-                    {item}
-                  </div>
-                )
-              )}
-
-            </div>
+<img
+  src={activeService.image}
+  alt={activeService.title}
+/>
 
           </div>
 
         </section>
+
+
+        {/* MAIN AI SHOWCASE */}
+
+
 
         {/* WHAT WE OFFER */}
 
@@ -515,22 +572,12 @@ export default function Services() {
 
     <div className="vision-card">
       <h3>Vision</h3>
-<p>
-To become the world's most trusted intelligence,
-research, and strategic analytics ecosystem,
-connecting knowledge, technology, and decision-making
-across borders.
-</p>
+<p>{activeService.vision}</p>
     </div>
 
     <div className="vision-card">
       <h3>Mission</h3>
-<p>
-To provide accurate, transparent, and actionable
-intelligence through AI, research, analytics,
-and global collaboration that empowers organizations
-to navigate complexity and create sustainable growth.
-</p>
+<p>{activeService.mission}</p>
     </div>
 
   </div>
@@ -545,7 +592,7 @@ to navigate complexity and create sustainable growth.
 
   <div className="tech-grid">
 
-    {technologies.map((tech) => (
+ {activeService.technologies?.map((tech) => (
       <div
         key={tech}
         className="tech-card"
@@ -566,7 +613,7 @@ to navigate complexity and create sustainable growth.
 
   <div className="impact-grid">
 
-    {impacts.map((item) => (
+   {activeService.impacts?.map((item) => (
 
       <div
         key={item.title}
@@ -590,7 +637,7 @@ to navigate complexity and create sustainable growth.
 
   <div className="roadmap-grid">
 
-    {roadmap.map((item) => (
+  {activeService.roadmap?.map((item) => (
 
       <div
         key={item.year}
@@ -615,7 +662,7 @@ to navigate complexity and create sustainable growth.
 
   <div className="offer-grid">
 
-    {whyChooseUs.map((item) => (
+  {activeService.whyChooseUs?.map((item) => (
 
       <div
         key={item.title}
