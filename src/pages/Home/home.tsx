@@ -342,74 +342,76 @@ const navigate = useNavigate();
 
         {/* STRATEGIC PARTNERS */}
 
-<section className="partners-section">
+{/* STRATEGIC PARTNERS */}
+
+<section className="partner-network-section">
 
   <div className="section-title">
     <span>GLOBAL PARTNERS</span>
     <h2>Strategic Leadership Network</h2>
   </div>
 
-  <p className="partners-subtitle">
+  <p className="partner-network-subtitle">
     Collaborating with global business leaders, investors,
     consultants and market-entry specialists to build an
     international ecosystem of intelligence, innovation
     and financial growth.
   </p>
 
-  <div className="partners-grid">
+  <div className="partner-network-grid">
 
     {/* Partner 1 */}
 
-<div className="partner-card">
+    <div className="partner-network-card">
 
-<div className="partner-avatar">
-  <div className="avatar-head"></div>
-  <div className="avatar-body"></div>
+<div className="partner-network-avatar">
+  <div className="partner-network-avatar-head"></div>
+  <div className="partner-network-avatar-body"></div>
 </div>
 
-  <h3 className="partner-name">
-    Abdul Wali Marwat
-  </h3>
+      <h3 className="partner-network-name">
+        Abdul Wali Marwat
+      </h3>
 
-  <div className="partner-role">
-    Afghanistan Market Entry & Strategic Partner
-  </div>
+      <div className="partner-network-role">
+        Afghanistan Market Entry & Strategic Partner
+      </div>
 
-  <p className="partner-desc">
-    Specialist in mining, logistics, healthcare,
-    trade and foreign investment opportunities
-    across Afghanistan.
-  </p>
+      <p className="partner-network-desc">
+        Specialist in mining, logistics, healthcare,
+        trade and foreign investment opportunities
+        across Afghanistan.
+      </p>
 
-  <a
-    href="https://www.linkedin.com/in/abdul-wali-marwat-34720915"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="linkedin-btn"
-  >
-    View LinkedIn
-  </a>
+      <a
+        href="https://www.linkedin.com/in/abdul-wali-marwat-34720915"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="partner-network-linkedin-btn"
+      >
+        View LinkedIn
+      </a>
 
-</div>
+    </div>
 
     {/* Partner 2 */}
 
-    <div className="partner-card">
+    <div className="partner-network-card">
 
-      <div className="partner-glow"></div>
+      <div className="partner-network-avatar">
+        <div className="partner-network-avatar-head"></div>
+        <div className="partner-network-avatar-body"></div>
+      </div>
 
-<div className="partner-avatar">
-  <div className="avatar-head"></div>
-  <div className="avatar-body"></div>
-</div>
+      <h3 className="partner-network-name">
+        Gregory Ingles
+      </h3>
 
-      <h3>Gregory Ingles</h3>
-
-      <span className="partner-role">
+      <div className="partner-network-role">
         Chairman, World dBank Corp
-      </span>
+      </div>
 
-      <p>
+      <p className="partner-network-desc">
         Global technology executive and financial
         innovation leader with extensive experience
         in digital banking and enterprise growth.
@@ -419,7 +421,7 @@ const navigate = useNavigate();
         href="https://www.linkedin.com/in/gregory-ingles-4b4b565"
         target="_blank"
         rel="noreferrer"
-        className="linkedin-btn"
+        className="partner-network-linkedin-btn"
       >
         View LinkedIn
       </a>
@@ -428,22 +430,21 @@ const navigate = useNavigate();
 
     {/* Partner 3 */}
 
-    <div className="partner-card">
-
-      <div className="partner-glow"></div>
-
-<div className="partner-avatar">
-  <div className="avatar-head"></div>
-  <div className="avatar-body"></div>
+    <div className="partner-network-card">
+<div className="partner-network-avatar">
+  <div className="partner-network-avatar-head"></div>
+  <div className="partner-network-avatar-body"></div>
 </div>
 
-      <h3>Michael Atkins</h3>
+      <h3 className="partner-network-name">
+        Michael Atkins
+      </h3>
 
-      <span className="partner-role">
+      <div className="partner-network-role">
         Chairman & CEO, AMAXVEN
-      </span>
+      </div>
 
-      <p>
+      <p className="partner-network-desc">
         Executive advisor to boards, investors and
         enterprises with expertise in finance,
         governance and global strategy.
@@ -453,7 +454,40 @@ const navigate = useNavigate();
         href="https://www.linkedin.com/in/mikeatkins08"
         target="_blank"
         rel="noreferrer"
-        className="linkedin-btn"
+        className="partner-network-linkedin-btn"
+      >
+        View LinkedIn
+      </a>
+
+    </div>
+
+    {/* Partner 4 */}
+
+    <div className="partner-network-card">
+
+      <div className="partner-network-avatar">
+        <div className="partner-network-avatar-head"></div>
+        <div className="partner-network-avatar-body"></div>
+      </div>
+
+      <h3 className="partner-network-name">
+        Dr. Gary S.
+      </h3>
+
+      <div className="partner-network-role">
+        Chairman & Chief Executive, Swiss Capital Group
+      </div>
+
+      <p className="partner-network-desc">
+        Finance and fintech leader with expertise in
+        banking, digital assets and global partnerships.
+      </p>
+
+      <a
+        href="https://www.linkedin.com/in/drgarypsum/"
+        target="_blank"
+        rel="noreferrer"
+        className="partner-network-linkedin-btn"
       >
         View LinkedIn
       </a>

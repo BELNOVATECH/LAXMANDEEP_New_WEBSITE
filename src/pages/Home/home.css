@@ -1298,39 +1298,35 @@
 
 
 /* ==========================================
-   PARTNERS SECTION
+   PARTNER NETWORK SECTION
 ========================================== */
 
-.partners-section{
-  padding:100px 8%;
-  position:relative;
+.partner-network-section{
+  width:100%;
+  max-width:1800px;
+  margin:auto;
+  padding:100px 3%;
 }
 
-.partners-subtitle{
+.partner-network-subtitle{
   max-width:850px;
   margin:0 auto 50px;
-
   text-align:center;
-
   color:#b6c0d1;
-
   line-height:1.8;
   font-size:16px;
 }
 
-.partners-grid{
+.partner-network-grid{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:28px;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
 }
 
-/* CARD */
-
-.partner-card{
+.partner-network-card{
   position:relative;
 
-  background:
-  linear-gradient(
+  background:linear-gradient(
     145deg,
     rgba(255,255,255,.05),
     rgba(255,255,255,.02)
@@ -1346,21 +1342,18 @@
 
   text-align:center;
 
-  min-height:420px;
-
-  overflow:hidden;
-
-  transition:.4s ease;
+  min-height:500px;
 
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:flex-start;
+
+  transition:.4s ease;
 }
 
-.partner-card::before{
+.partner-network-card::before{
   content:"";
-
   position:absolute;
 
   width:180px;
@@ -1368,8 +1361,7 @@
 
   border-radius:50%;
 
-  background:
-  rgba(212,175,55,.12);
+  background:rgba(212,175,55,.12);
 
   filter:blur(70px);
 
@@ -1381,23 +1373,20 @@
   transition:.5s;
 }
 
-.partner-card:hover::before{
+.partner-network-card:hover::before{
   opacity:1;
 }
 
-.partner-card:hover{
-  transform:
-  translateY(-10px);
+.partner-network-card:hover{
+  transform:translateY(-10px);
 
   border-color:#d4af37;
 
   box-shadow:
-  0 20px 50px rgba(212,175,55,.15);
+    0 20px 50px rgba(212,175,55,.15);
 }
 
-/* IMAGE */
-
-.partner-avatar{
+.partner-network-avatar{
   width:90px;
   height:90px;
 
@@ -1418,36 +1407,8 @@
   align-items:center;
 }
 
-.avatar-head{
-  position:absolute;
 
-  width:22px;
-  height:22px;
-
-  border-radius:50%;
-
-  background:#aab3c5;
-
-  top:18px;
-}
-
-.avatar-body{
-  position:absolute;
-
-  width:50px;
-  height:28px;
-
-  background:#aab3c5;
-
-  border-radius:30px 30px 0 0;
-
-  bottom:14px;
-}
-
-/* NAME */
-
-.partner-name,
-.partner-card h3{
+.partner-network-name{
   color:#fff;
 
   font-size:1.8rem;
@@ -1456,11 +1417,31 @@
   line-height:1.2;
 
   margin-bottom:10px;
+
+  min-height:90px;
+}
+.partner-network-avatar-head{
+  position:absolute;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background:#aab3c5;
+  top:18px;
+  left:50%;
+  transform:translateX(-50%);
 }
 
-/* ROLE */
-
-.partner-role{
+.partner-network-avatar-body{
+  position:absolute;
+  width:50px;
+  height:28px;
+  background:#aab3c5;
+  border-radius:30px 30px 0 0;
+  bottom:14px;
+  left:50%;
+  transform:translateX(-50%);
+}
+.partner-network-role{
   color:#d4af37;
 
   font-size:.95rem;
@@ -1472,12 +1453,11 @@
   margin-bottom:18px;
 
   max-width:260px;
+
+  min-height:70px;
 }
 
-/* DESCRIPTION */
-
-.partner-desc,
-.partner-card p{
+.partner-network-desc{
   color:#b6c0d1;
 
   font-size:14px;
@@ -1487,12 +1467,13 @@
   margin-bottom:24px;
 
   max-width:300px;
+
+  flex:1;
 }
 
-/* BUTTON */
-
-.linkedin-btn{
+.partner-network-linkedin-btn{
   display:inline-flex;
+
   align-items:center;
   justify-content:center;
 
@@ -1503,39 +1484,35 @@
   border-radius:50px;
 
   background:
-  linear-gradient(
-    135deg,
-    #0077b5,
-    #00a0dc
-  );
+    linear-gradient(
+      135deg,
+      #0077b5,
+      #00a0dc
+    );
 
   color:#fff;
 
   font-size:14px;
   font-weight:700;
 
+  margin-top:auto;
+
   transition:.4s;
 }
 
-.linkedin-btn:hover{
+.partner-network-linkedin-btn:hover{
   transform:translateY(-3px);
 
   box-shadow:
-  0 15px 30px rgba(0,119,181,.35);
+    0 15px 30px rgba(0,119,181,.35);
 }
 
 /* TABLET */
 
 @media(max-width:1024px){
 
-  .partners-grid{
-    grid-template-columns:1fr;
-    max-width:600px;
-    margin:auto;
-  }
-
-  .partner-card{
-    min-height:auto;
+  .partner-network-grid{
+    grid-template-columns:repeat(2,1fr);
   }
 }
 
@@ -1543,26 +1520,23 @@
 
 @media(max-width:768px){
 
-  .partners-section{
+  .partner-network-section{
     padding:80px 5%;
   }
 
-  .partner-card{
+  .partner-network-grid{
+    grid-template-columns:1fr;
+  }
+
+  .partner-network-card{
     padding:25px 20px;
   }
 
-  .partner-name,
-  .partner-card h3{
+  .partner-network-name{
     font-size:1.5rem;
   }
 
-  .partner-image,
-  .partner-card img{
-    width:80px;
-    height:80px;
-  }
-
-  .linkedin-btn{
+  .partner-network-linkedin-btn{
     width:100%;
   }
 }
