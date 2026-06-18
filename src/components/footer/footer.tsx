@@ -102,7 +102,7 @@ const Footer = () => {
         <div className="lxd-footer-links">
           <h4>Contact Info</h4>
 
-          <p>📍 Hyderabad, Telangana, India</p>
+          <p>📍 Kadapa, Andhra Pradesh, India</p>
           <p>📧 info@laxmandeep.com</p>
           <p>📞 +91 96400 80880</p>
           <p>🌐 Global Intelligence Network</p>
