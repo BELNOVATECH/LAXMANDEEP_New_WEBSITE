@@ -35,10 +35,16 @@ export default function Contact() {
               <p>contact@laxmandeep.com</p>
             </div>
 
-            <div className="info-card">
-              <h3>Phone</h3>
-              <p>+91 XXXXX XXXXX</p>
-            </div>
+<div className="info-card">
+  <h3>Phone</h3>
+
+  <a
+    href="tel:+919640080880"
+    className="contact-link"
+  >
+    +91 96400 80880
+  </a>
+</div>
 
 <div className="info-card">
   <h3>Registered Office</h3>
@@ -58,17 +64,18 @@ export default function Contact() {
   </p>
 </div>
 
-            <div className="info-card">
-              <h3>CEO LinkedIn</h3>
+<div className="info-card">
+  <h3>CEO LinkedIn</h3>
 
-              <a
-                href="https://www.linkedin.com/in/lakshumaiah-nanubala-5b7baa23a"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Connect With CEO
-              </a>
-            </div>
+  <a
+    href="https://www.linkedin.com/in/lakshumaiah-nanubala-5b7baa23a"
+    target="_blank"
+    rel="noreferrer"
+    className="contact-link"
+  >
+    Connect With CEO
+  </a>
+</div>
 
           </div>
 

@@ -91,7 +91,9 @@
 /* SERVICE NAVIGATION */
 
 .service-navigation{
-  margin-top:90px;
+  margin-top:0;
+
+  margin-bottom:80px;
 
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -649,7 +651,16 @@
 /* MOBILE */
 
 @media(max-width:768px){
+.services-hero{
+  display:grid;
+  grid-template-columns:1fr 700px;
 
+  gap:80px;
+
+  align-items:center;
+
+  margin-top:60px; /* add this */
+}
   .services-page{
     padding:110px 5% 60px;
   }
@@ -1091,8 +1102,8 @@
 /* Mobile */
 @media screen and (max-width: 480px) {
 
-  .services-page {
-    padding: 80px 16px 40px;
+   .services-page {
+    padding: 130px 16px 40px;
   }
 
   .hero-left h1 {
