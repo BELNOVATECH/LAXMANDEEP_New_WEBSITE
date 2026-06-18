@@ -1295,3 +1295,274 @@
     translateY(-40px);
   }
 }
+
+
+/* ==========================================
+   PARTNERS SECTION
+========================================== */
+
+.partners-section{
+  padding:100px 8%;
+  position:relative;
+}
+
+.partners-subtitle{
+  max-width:850px;
+  margin:0 auto 50px;
+
+  text-align:center;
+
+  color:#b6c0d1;
+
+  line-height:1.8;
+  font-size:16px;
+}
+
+.partners-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+/* CARD */
+
+.partner-card{
+  position:relative;
+
+  background:
+  linear-gradient(
+    145deg,
+    rgba(255,255,255,.05),
+    rgba(255,255,255,.02)
+  );
+
+  backdrop-filter:blur(20px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  border-radius:28px;
+
+  padding:28px 24px;
+
+  text-align:center;
+
+  min-height:420px;
+
+  overflow:hidden;
+
+  transition:.4s ease;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.partner-card::before{
+  content:"";
+
+  position:absolute;
+
+  width:180px;
+  height:180px;
+
+  border-radius:50%;
+
+  background:
+  rgba(212,175,55,.12);
+
+  filter:blur(70px);
+
+  top:-80px;
+  right:-80px;
+
+  opacity:0;
+
+  transition:.5s;
+}
+
+.partner-card:hover::before{
+  opacity:1;
+}
+
+.partner-card:hover{
+  transform:
+  translateY(-10px);
+
+  border-color:#d4af37;
+
+  box-shadow:
+  0 20px 50px rgba(212,175,55,.15);
+}
+
+/* IMAGE */
+
+.partner-avatar{
+  width:90px;
+  height:90px;
+
+  border-radius:50%;
+
+  border:3px solid #d4af37;
+
+  background:#2d3148;
+
+  position:relative;
+
+  overflow:hidden;
+
+  margin-bottom:20px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.avatar-head{
+  position:absolute;
+
+  width:22px;
+  height:22px;
+
+  border-radius:50%;
+
+  background:#aab3c5;
+
+  top:18px;
+}
+
+.avatar-body{
+  position:absolute;
+
+  width:50px;
+  height:28px;
+
+  background:#aab3c5;
+
+  border-radius:30px 30px 0 0;
+
+  bottom:14px;
+}
+
+/* NAME */
+
+.partner-name,
+.partner-card h3{
+  color:#fff;
+
+  font-size:1.8rem;
+  font-weight:700;
+
+  line-height:1.2;
+
+  margin-bottom:10px;
+}
+
+/* ROLE */
+
+.partner-role{
+  color:#d4af37;
+
+  font-size:.95rem;
+
+  font-weight:600;
+
+  line-height:1.4;
+
+  margin-bottom:18px;
+
+  max-width:260px;
+}
+
+/* DESCRIPTION */
+
+.partner-desc,
+.partner-card p{
+  color:#b6c0d1;
+
+  font-size:14px;
+
+  line-height:1.8;
+
+  margin-bottom:24px;
+
+  max-width:300px;
+}
+
+/* BUTTON */
+
+.linkedin-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  text-decoration:none;
+
+  padding:12px 24px;
+
+  border-radius:50px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #0077b5,
+    #00a0dc
+  );
+
+  color:#fff;
+
+  font-size:14px;
+  font-weight:700;
+
+  transition:.4s;
+}
+
+.linkedin-btn:hover{
+  transform:translateY(-3px);
+
+  box-shadow:
+  0 15px 30px rgba(0,119,181,.35);
+}
+
+/* TABLET */
+
+@media(max-width:1024px){
+
+  .partners-grid{
+    grid-template-columns:1fr;
+    max-width:600px;
+    margin:auto;
+  }
+
+  .partner-card{
+    min-height:auto;
+  }
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .partners-section{
+    padding:80px 5%;
+  }
+
+  .partner-card{
+    padding:25px 20px;
+  }
+
+  .partner-name,
+  .partner-card h3{
+    font-size:1.5rem;
+  }
+
+  .partner-image,
+  .partner-card img{
+    width:80px;
+    height:80px;
+  }
+
+  .linkedin-btn{
+    width:100%;
+  }
+}
