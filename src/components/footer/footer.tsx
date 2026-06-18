@@ -127,7 +127,10 @@ const Footer = () => {
           <FaWhatsapp />
         </a>
 
-        <a href="mailto:info@laxmandeep.com">
+        <a href="mailto:info@laxmandeep.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaEnvelope />
         </a>
 
