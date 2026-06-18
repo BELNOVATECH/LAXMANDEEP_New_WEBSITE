@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+// import { FaUserTie } from "react-icons/fa";
 import {
   FaBrain,
   FaGlobe,
@@ -338,6 +339,130 @@ const navigate = useNavigate();
           </div>
 
         </section>
+
+        {/* STRATEGIC PARTNERS */}
+
+<section className="partners-section">
+
+  <div className="section-title">
+    <span>GLOBAL PARTNERS</span>
+    <h2>Strategic Leadership Network</h2>
+  </div>
+
+  <p className="partners-subtitle">
+    Collaborating with global business leaders, investors,
+    consultants and market-entry specialists to build an
+    international ecosystem of intelligence, innovation
+    and financial growth.
+  </p>
+
+  <div className="partners-grid">
+
+    {/* Partner 1 */}
+
+<div className="partner-card">
+
+<div className="partner-avatar">
+  <div className="avatar-head"></div>
+  <div className="avatar-body"></div>
+</div>
+
+  <h3 className="partner-name">
+    Abdul Wali Marwat
+  </h3>
+
+  <div className="partner-role">
+    Afghanistan Market Entry & Strategic Partner
+  </div>
+
+  <p className="partner-desc">
+    Specialist in mining, logistics, healthcare,
+    trade and foreign investment opportunities
+    across Afghanistan.
+  </p>
+
+  <a
+    href="https://www.linkedin.com/in/abdul-wali-marwat-34720915"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="linkedin-btn"
+  >
+    View LinkedIn
+  </a>
+
+</div>
+
+    {/* Partner 2 */}
+
+    <div className="partner-card">
+
+      <div className="partner-glow"></div>
+
+<div className="partner-avatar">
+  <div className="avatar-head"></div>
+  <div className="avatar-body"></div>
+</div>
+
+      <h3>Gregory Ingles</h3>
+
+      <span className="partner-role">
+        Chairman, World dBank Corp
+      </span>
+
+      <p>
+        Global technology executive and financial
+        innovation leader with extensive experience
+        in digital banking and enterprise growth.
+      </p>
+
+      <a
+        href="https://www.linkedin.com/in/gregory-ingles-4b4b565"
+        target="_blank"
+        rel="noreferrer"
+        className="linkedin-btn"
+      >
+        View LinkedIn
+      </a>
+
+    </div>
+
+    {/* Partner 3 */}
+
+    <div className="partner-card">
+
+      <div className="partner-glow"></div>
+
+<div className="partner-avatar">
+  <div className="avatar-head"></div>
+  <div className="avatar-body"></div>
+</div>
+
+      <h3>Michael Atkins</h3>
+
+      <span className="partner-role">
+        Chairman & CEO, AMAXVEN
+      </span>
+
+      <p>
+        Executive advisor to boards, investors and
+        enterprises with expertise in finance,
+        governance and global strategy.
+      </p>
+
+      <a
+        href="https://www.linkedin.com/in/mikeatkins08"
+        target="_blank"
+        rel="noreferrer"
+        className="linkedin-btn"
+      >
+        View LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
         {/* TIMELINE */}
 
