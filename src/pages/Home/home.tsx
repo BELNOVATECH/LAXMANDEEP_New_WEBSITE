@@ -365,8 +365,10 @@ const navigate = useNavigate();
     <div className="partner-network-card">
 
 <div className="partner-network-avatar">
-  <div className="partner-network-avatar-head"></div>
-  <div className="partner-network-avatar-body"></div>
+  <img
+    src="/abdul-wali.jpg"
+    alt="Abdul Wali Marwat"
+  />
 </div>
 
       <h3 className="partner-network-name">
@@ -398,10 +400,11 @@ const navigate = useNavigate();
 
     <div className="partner-network-card">
 
-      <div className="partner-network-avatar">
-        <div className="partner-network-avatar-head"></div>
-        <div className="partner-network-avatar-body"></div>
-      </div>
+<div className="partner-network-avatar">
+
+<img src="/gregoryingles.jpg" alt="Gregory Ingles" />
+
+</div>
 
       <h3 className="partner-network-name">
         Gregory Ingles
@@ -432,8 +435,7 @@ const navigate = useNavigate();
 
     <div className="partner-network-card">
 <div className="partner-network-avatar">
-  <div className="partner-network-avatar-head"></div>
-  <div className="partner-network-avatar-body"></div>
+<img src="/michaelatkins.jpg" alt="Michael Atkins" />
 </div>
 
       <h3 className="partner-network-name">
@@ -466,8 +468,7 @@ const navigate = useNavigate();
     <div className="partner-network-card">
 
       <div className="partner-network-avatar">
-        <div className="partner-network-avatar-head"></div>
-        <div className="partner-network-avatar-body"></div>
+        <img src="/dr-gary-s.jpg" alt="Dr. Gary S." />
       </div>
 
       <h3 className="partner-network-name">
@@ -493,11 +494,73 @@ const navigate = useNavigate();
       </a>
 
     </div>
+<div className="partner-network-card">
+
+  <div className="partner-network-avatar">
+    <img
+      src="/milind-kshirsagar.jpg"
+      alt="Milind Kshirsagar"
+    />
+  </div>
+
+  <h3 className="partner-network-name">
+    Milind Kshirsagar
+  </h3>
+
+  <div className="partner-network-role">
+    Founder & Chairman, TiruBaa Technologies
+  </div>
+
+  <p className="partner-network-desc">
+    Global technology entrepreneur with 45+ years of
+    experience across IT, telecom, education technology,
+    renewable energy and international business expansion
+    in more than 30 countries.
+  </p>
+
+  <a
+    href="https://www.linkedin.com/"
+    target="_blank"
+    rel="noreferrer"
+    className="partner-network-linkedin-btn"
+  >
+    View LinkedIn
+  </a>
+
+</div>
+  </div>
+
+</section>
+{/* TEAM MEMBERS */}
+
+<section className="team-wall-section">
+
+  <div className="section-title">
+    <span>OUR PEOPLE</span>
+    <h2>Global Team Members</h2>
+  </div>
+
+  <p className="team-wall-subtitle">
+    Dedicated professionals contributing to our growing
+    international ecosystem.
+  </p>
+
+  <div className="team-wall-grid">
+
+    <div className="team-wall-card">Alessandro Martinelli</div>
+    <div className="team-wall-card">Amenyo Setordzie</div>
+    <div className="team-wall-card">Anupam Upadhyay</div>
+    <div className="team-wall-card">Didi Q</div>
+    <div className="team-wall-card">Dr. Kutay Mutdogan</div>
+    <div className="team-wall-card">Jayanth Kumar</div>
+    <div className="team-wall-card">Muskan</div>
+    <div className="team-wall-card">Rajesh Kaul</div>
+    <div className="team-wall-card">Tal Tetivski</div>
+    <div className="team-wall-card">Vikas</div>
 
   </div>
 
 </section>
-
         {/* TIMELINE */}
 
         <section className="timeline-section">
