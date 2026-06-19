@@ -102,7 +102,19 @@ const Footer = () => {
         <div className="lxd-footer-links">
           <h4>Contact Info</h4>
 
-          <p>📍 Kadapa, Andhra Pradesh, India</p>
+          <p>
+    D.No. 1-18 D,
+    <br />
+    Gollapalli,
+    <br />
+    Vontimitta,
+    <br />
+    Kadapa District,
+    <br />
+    Andhra Pradesh - 516213,
+    <br />
+    India
+  </p>
           <p>📧 info@laxmandeep.com</p>
           <p>📞 +91 96400 80880</p>
           <p>🌐 Global Intelligence Network</p>
