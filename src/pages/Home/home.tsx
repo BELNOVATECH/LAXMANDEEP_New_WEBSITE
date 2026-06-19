@@ -11,6 +11,8 @@ import {
   FaShieldHalved,
   FaArrowRight,
 } from "react-icons/fa6";
+import {  useState } from "react";
+
 
 export default function Home() {
   const ecosystemRef = useRef<HTMLElement | null>(null);
@@ -22,7 +24,7 @@ export default function Home() {
     });
   };
 const navigate = useNavigate();
-
+const [showVideo, setShowVideo] = useState(false);
   return (
     <>
       <Navbar />
@@ -75,9 +77,12 @@ const navigate = useNavigate();
   Explore Ecosystem
 </button>
 
-              <button className="secondary-btn">
-                Watch Vision
-              </button>
+<button
+  className="secondary-btn"
+  onClick={() => setShowVideo(true)}
+>
+  Watch Vision
+</button>
 
             </div>
 
@@ -100,6 +105,33 @@ const navigate = useNavigate();
 
         </section>
 
+{showVideo && (
+  <div
+    className="vision-modal"
+    onClick={() => setShowVideo(false)}
+  >
+    <div
+      className="vision-modal-content"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <button
+        className="vision-close"
+        onClick={() => setShowVideo(false)}
+      >
+        ×
+      </button>
+
+      <video
+        autoPlay
+        controls
+        playsInline
+        className="vision-video"
+      >
+        <source src="/vision.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+)}
         {/* AI STATS */}
 
         <section className="stats-section">
