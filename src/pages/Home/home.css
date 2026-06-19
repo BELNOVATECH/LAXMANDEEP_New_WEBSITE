@@ -1689,3 +1689,89 @@
   }
 
 }
+
+.vision-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(12px);
+
+  animation: fadeIn 0.4s ease;
+}
+
+.vision-modal-content {
+  position: relative;
+
+  width: 90%;
+  max-width: 1200px;
+
+  border-radius: 24px;
+  overflow: hidden;
+
+  box-shadow:
+    0 0 40px rgba(0,255,255,.15),
+    0 0 100px rgba(0,140,255,.15);
+
+  animation: zoomIn .35s ease;
+}
+
+.vision-video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
+.vision-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255,255,255,.15);
+  color: white;
+
+  font-size: 28px;
+  cursor: pointer;
+
+  z-index: 10;
+
+  backdrop-filter: blur(10px);
+
+  transition: .3s;
+}
+
+.vision-close:hover {
+  transform: rotate(90deg);
+  background: rgba(255,255,255,.25);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
