@@ -50,9 +50,9 @@ export default function Contact() {
   <h3>Registered Office</h3>
 
   <p>
-    D.No. 1-18 D,
+    D.No. 1-18 ,
     <br />
-    Gollapalli,
+    D Gollapalli,
     <br />
     Vontimitta,
     <br />

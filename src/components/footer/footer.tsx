@@ -103,9 +103,9 @@ const Footer = () => {
           <h4>Contact Info</h4>
 
           <p>
-    D.No. 1-18 D,
+    D.No. 1-18 ,
     <br />
-    Gollapalli,
+    D Gollapalli,
     <br />
     Vontimitta,
     <br />
