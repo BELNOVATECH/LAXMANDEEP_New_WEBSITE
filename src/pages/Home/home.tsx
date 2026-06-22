@@ -15,9 +15,11 @@ import {  useState } from "react";
 
 
 export default function Home() {
+  const [showMilindDocs, setShowMilindDocs] = useState(false);
   const ecosystemRef = useRef<HTMLElement | null>(null);
 
   const scrollToEcosystem = () => {
+    
     ecosystemRef.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -26,6 +28,7 @@ export default function Home() {
 const navigate = useNavigate();
 const [showVideo, setShowVideo] = useState(false);
   return (
+    
     <>
       <Navbar />
 
@@ -460,7 +463,14 @@ const [showVideo, setShowVideo] = useState(false);
       >
         View LinkedIn
       </a>
-
+<a
+  href="/gregory-ingles-letter.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="partner-network-pdf-btn"
+>
+  View Chairman's Letter
+</a>
     </div>
 
     {/* Partner 3 */}
@@ -492,6 +502,14 @@ const [showVideo, setShowVideo] = useState(false);
       >
         View LinkedIn
       </a>
+      <a
+  href="/michael-atkins-agreement.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="partner-network-pdf-btn"
+>
+  View Appointment Letter
+</a>
 
     </div>
 
@@ -524,6 +542,14 @@ const [showVideo, setShowVideo] = useState(false);
       >
         View LinkedIn
       </a>
+      <a
+  href="/Dr-Gary-Sum-MOU.pdf"
+  target="_blank"
+  rel="noreferrer"
+  className="partner-network-pdf-btn"
+>
+  View Strategic MOU
+</a>
 
     </div>
 <div className="partner-network-card">
@@ -558,6 +584,13 @@ const [showVideo, setShowVideo] = useState(false);
   >
     View LinkedIn
   </a>
+  <button
+  className="partner-network-pdf-btn"
+  onClick={() => setShowMilindDocs(true)}
+>
+  View Portfolio
+</button>
+
 
 </div>
   </div>
@@ -654,6 +687,71 @@ const [showVideo, setShowVideo] = useState(false);
   <FaArrowRight />
 </button>
         </section>
+        return (
+  <>
+    <Navbar />
+
+    <main className="home-page">
+
+      {/* All sections */}
+
+      <section className="cta-section">
+        ...
+      </section>
+
+      {/* 👇 MILIND MODAL HERE */}
+
+{showMilindDocs && (
+  <div
+    className="docs-modal"
+    onClick={() => setShowMilindDocs(false)}
+  >
+    <div
+      className="docs-modal-content"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <h3>Milind Kshirsagar Portfolio</h3>
+
+      <a
+        href="/tirubaa-goldmine-overview.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Tirubaa Goldmine Overview
+      </a>
+
+      <a
+        href="/offline-digital-education-infrastructure.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Offline Education Infrastructure
+      </a>
+
+      <a
+        href="/north-east-learning-initiative.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        North-East Learning Initiative
+      </a>
+
+      <a
+        href="/ttom-awareness-program.pptx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        TTOM Awareness Program
+      </a>
+    </div>
+  </div>
+)}
+
+    </main>
+
+    <Footer />
+  </>
+);
 
       </main>
 

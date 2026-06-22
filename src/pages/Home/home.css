@@ -1775,3 +1775,174 @@
     opacity: 1;
   }
 }
+
+.partner-network-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  transition: all 0.3s ease;
+}
+
+.partner-network-pdf-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(124, 58, 237, 0.35);
+}
+
+
+
+
+.docs-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.78);
+  backdrop-filter: blur(14px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.docs-modal-content {
+  width: 500px;
+  max-width: 92%;
+  padding: 32px;
+  border-radius: 28px;
+
+  background: linear-gradient(
+    145deg,
+    rgba(6, 15, 45, 0.98),
+    rgba(8, 20, 60, 0.95)
+  );
+
+  border: 1px solid rgba(214, 174, 54, 0.35);
+
+  box-shadow:
+    0 0 40px rgba(214, 174, 54, 0.15),
+    0 0 80px rgba(37, 99, 235, 0.12);
+}
+
+.docs-modal-content h3 {
+  text-align: center;
+  color: #d6ae36;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+.docs-modal-content a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 22px;
+  margin-bottom: 14px;
+
+  text-decoration: none;
+  color: #ffffff;
+
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.04);
+
+  border: 1px solid rgba(214, 174, 54, 0.12);
+
+  transition: all 0.3s ease;
+}
+
+.docs-modal-content a:hover {
+  transform: translateY(-3px);
+
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.25),
+    rgba(37, 99, 235, 0.25)
+  );
+
+  border-color: rgba(214, 174, 54, 0.4);
+
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.18);
+}
+
+.docs-modal-content a::after {
+  content: "→";
+  color: #d6ae36;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .docs-modal-content {
+    width: 92%;
+ 
+    padding: 24px;
+  }
+
+  .docs-modal-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .docs-modal-content a {
+    padding: 16px 18px;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .docs-modal {
+    padding: 16px;
+  }
+
+  .docs-modal-content {
+    width: 100%;
+    max-height: 80vh;
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .docs-modal-content h3 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  .docs-modal-content a {
+    padding: 14px 16px;
+    min-height: 70px;
+    font-size: 0.95rem;
+    border-radius: 16px;
+  }
+
+  .docs-modal-content a::after {
+    font-size: 16px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 375px) {
+  .docs-modal-content {
+    padding: 16px;
+  }
+
+  .docs-modal-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .docs-modal-content a {
+    font-size: 0.9rem;
+    padding: 12px 14px;
+    min-height: 64px;
+  }
+}
