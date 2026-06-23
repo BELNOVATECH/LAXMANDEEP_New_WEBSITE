@@ -649,7 +649,7 @@ const [showVideo, setShowVideo] = useState(false);
 
             <div className="timeline-item">
               <h3>2025</h3>
-              <p>Swiss AI FINTECH Launch</p>
+              <p>Swiss LaxmanDeep AI FINTECH Launch</p>
             </div>
 
             <div className="timeline-item">
