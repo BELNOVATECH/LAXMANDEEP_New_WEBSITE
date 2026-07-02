@@ -687,20 +687,6 @@ const [showVideo, setShowVideo] = useState(false);
   <FaArrowRight />
 </button>
         </section>
-        return (
-  <>
-    <Navbar />
-
-    <main className="home-page">
-
-      {/* All sections */}
-
-      <section className="cta-section">
-        ...
-      </section>
-
-      {/* 👇 MILIND MODAL HERE */}
-
 {showMilindDocs && (
   <div
     className="docs-modal"
@@ -710,48 +696,33 @@ const [showVideo, setShowVideo] = useState(false);
       className="docs-modal-content"
       onClick={(e) => e.stopPropagation()}
     >
+      <button
+        className="vision-close"
+        onClick={() => setShowMilindDocs(false)}
+      >
+        ×
+      </button>
+
       <h3>Milind Kshirsagar Portfolio</h3>
 
-      <a
-        href="/tirubaa-goldmine-overview.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/tirubaa-goldmine-overview.pdf" target="_blank">
         Tirubaa Goldmine Overview
       </a>
 
-      <a
-        href="/offline-digital-education-infrastructure.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/offline-digital-education-infrastructure.pdf" target="_blank">
         Offline Education Infrastructure
       </a>
 
-      <a
-        href="/north-east-learning-initiative.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/north-east-learning-initiative.pdf" target="_blank">
         North-East Learning Initiative
       </a>
 
-      <a
-        href="/ttom-awareness-program.pptx"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/ttom-awareness-program.pptx" target="_blank">
         TTOM Awareness Program
       </a>
     </div>
   </div>
 )}
-
-    </main>
-
-    <Footer />
-  </>
-);
 
       </main>
 
